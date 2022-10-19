@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @sanaullahkhan
-- 👀 I’m interested in learning OOP in C++
-- 🌱 I’m currently learning C++ for beginners.
-- 💞️ I’m looking to collaborate with experienced C++ developers and programmers.
+- 👋 Hi, I’m @sanaullahkhan and I am learning data science.
+- 👀 I’m interested in learning C++ and R for data analysis.
+- 🌱 I’m currently learning statistics and R. 
+- 💞️ I’m looking to collaborate with experienced statisticians, data analytists and programmers.
 
 <!---
 sanaullah525/sanaullah525 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
