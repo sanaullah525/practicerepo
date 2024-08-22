@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @sanaullahkhan and I am learning data science.
-- 👀 I’m interested in learning C++ and R for data analysis.
-- 🌱 I’m currently learning statistics and R. 
+- 👀 I’m interested in learning and R for data analysis.
+- 🌱 I’m currently learning statistics, Excel, PowerBI, SQL and R. 
 - 💞️ I’m looking to collaborate with experienced statisticians, data analytists and programmers.
 
 <!---
