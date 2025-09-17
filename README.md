@@ -1,8 +1,12 @@
-- 👋 Hi, I’m @sanaullahkhan and I am learning data science.
-- 👀 I’m interested in learning and R for data analysis.
-- 🌱 I’m currently learning statistics, Excel, PowerBI, SQL and R. 
-- 💞️ I’m looking to collaborate with experienced statisticians, data analytists and programmers.
+Hi, I’m @sanaullahkhan
 
+👀 I’m passionate about Data Analysis, DevOps, and AIOps.
+
+🌱 I’m currently learning Excel, Power BI, SQL, R, and DevOps practices.
+
+💞️ I’m looking to collaborate with data analysts, DevOps engineers, and programmers.
+
+📂 I enjoy building projects that connect data insights with automation and operations.
 <!---
 sanaullah525/sanaullah525 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
