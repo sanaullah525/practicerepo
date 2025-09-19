@@ -1,4 +1,7 @@
+Author: Sanaullah Khan
+
 Hi, I’m @sanaullahkhan
+This is my practice repository for learning python and practice Git and github.
 
 👀 I’m passionate about Data Analysis, DevOps, and AIOps.
 
