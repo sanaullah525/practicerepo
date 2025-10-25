@@ -5,7 +5,7 @@ This is my practice repository for learning python and practice Git and github.
 
 👀 I’m passionate about Data Analysis, DevOps, and AIOps.
 
-🌱 I’m currently learning Excel, Power BI, SQL, R, Cloud and DevOps practices.
+🌱 I’m currently learning Data analytics, MS Excel, Power BI, SQL, R, Cloud and DevOps practices.
 
 📂 I enjoy building projects that connect data insights with automation and operations.
 
