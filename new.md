@@ -1,8 +1,8 @@
 This is a new md file.
 I am trying to generate a new md file using Git bash in VS Code. This is a new line added to check wether the auto-save function I just set to 3 seconds is working or not.
-This is to check the md file.
-
+This is to check if the changes works with md file.
 
 
 This line was added using f1 branch.
+
 This line is in the main branch.
