@@ -789,3 +789,7 @@ print(0.5 + 0.5== 1)
 """
 
 
+# Lambda function in python.
+#  lambda arguments: expression
+
+print((lambda a,b: a+b))
