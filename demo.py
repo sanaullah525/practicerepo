@@ -792,4 +792,12 @@ print(0.5 + 0.5== 1)
 # Lambda function in python.
 #  lambda arguments: expression
 
-print((lambda a,b: a+b))
+# print((lambda a,b: a+b))
+"""
+add_with_lambda= lambda x,y: x+y
+x= float(input("Enter value of x: "))
+y= float(input("Enter value of y: "))
+result= round(add_with_lambda(x,y),1)
+print(result)
+"""
+
