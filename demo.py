@@ -802,3 +802,16 @@ print(result)
 """
 
 
+name= "Sanaullah"
+age= 20
+
+def check_age(age):
+    if age > 18:
+        return "Adult"
+    else:
+        return "Minor"
+
+status= check_age(age)
+
+print("Name:", name)
+print("Status:", status)
