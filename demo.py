@@ -812,6 +812,6 @@ def check_age(age):
         return "Minor"
 
 status= check_age(age)
-
+ 
 print("Name:", name)
 print("Status:", status)
