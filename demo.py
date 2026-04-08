@@ -810,7 +810,7 @@ def check_age(age):
         return "Adult"
     else:
         return "Minor"
-
+    
 status= check_age(age)
  
 print("Name:", name)
