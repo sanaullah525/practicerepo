@@ -799,19 +799,19 @@ x= float(input("Enter value of x: "))
 y= float(input("Enter value of y: "))
 result= round(add_with_lambda(x,y),1)
 print(result)
-"""
 
 
 name= "Sanaullah"
 age= 20
-
 def check_age(age):
     if age > 18:
         return "Adult"
     else:
-        return "Minor"
-        
+        return "Minor"        
 status= check_age(age)
 
 print("Name:", name)
 print("Status:", status)
+
+"""
+
