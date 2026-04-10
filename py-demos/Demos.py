@@ -4,6 +4,35 @@
   and basic arithmetic operations.
 """
 
+
+"""
+ demo.py
+ Simple Python scripts to demonstrate print statements
+  and basic arithmetic operations.
+"""
+
+
+"""
+print("Welcome to the python world !!!", 
+      "This is my first demo script.",
+    "Python is fun to learn and use.", "Happy coding!", 
+        "Let's explore more Python features.")
+
+#  Time for some arithmetic operations using python.
+#  Addition, Subtraction, Multiplication, Division, 
+# ... Integer Division, Modulus, Exponentiation
+print("This is to print some arithmetics using python. ")
+print("21+4= ", 21+4)
+print("Multiplication: 7*6= ", 7*6)
+print("Division: 56/8= ", 56/8)
+print("Subtraction: 45-9= ", 45-9)
+print("Integer Division: 22//7= ", 22//7)
+print("Modulus: 29%5= ", 29%5)
+print("Exponentiation: 3**2= ", 3**2)
+print("That's all for now. More to come soon...")
+"""
+
+
 """
 print("Welcome to the python world !!!", 
       "This is my first demo script.",
@@ -788,6 +817,7 @@ print(0.1+0.2== 0.3)
 print(0.5 + 0.5== 1)
 """
 
+
 # Lambda function in python.
 #  lambda arguments: expression
 
@@ -798,21 +828,21 @@ x= float(input("Enter value of x: "))
 y= float(input("Enter value of y: "))
 result= round(add_with_lambda(x,y),1)
 print(result)
-"""
 
 
 name= "Sanaullah"
 age= 20
-
 def check_age(age):
     if age > 18:
         return "Adult"
-    if age < 18:
-        return "Minor"
-    
+    else:
+        return "Minor"        
 status= check_age(age)
 
 print("Name:", name)
 print("Status:", status)
+
+"""
+
 
 
