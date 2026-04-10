@@ -788,7 +788,6 @@ print(0.1+0.2== 0.3)
 print(0.5 + 0.5== 1)
 """
 
-
 # Lambda function in python.
 #  lambda arguments: expression
 
@@ -800,5 +799,20 @@ y= float(input("Enter value of y: "))
 result= round(add_with_lambda(x,y),1)
 print(result)
 """
+
+
+name= "Sanaullah"
+age= 20
+
+def check_age(age):
+    if age > 18:
+        return "Adult"
+    if age < 18:
+        return "Minor"
+    
+status= check_age(age)
+
+print("Name:", name)
+print("Status:", status)
 
 
