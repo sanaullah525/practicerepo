@@ -809,10 +809,31 @@ except:
 div(42)
 """
 
+
+
+    
+def div(divideby):
+    try:
+        return 42/divideby
+    except ZeroDivisionError:
+        print("Invalid argument!")
+print(div(2))
+print(div(12))
+print(div(0))
+print(div(1))
+"""
+
+
 """
 x= 0.1
 y= 0.2
 print(0.1+0.2== 0.3)
+
+
+print(0.5 + 0.5== 1)
+"""
+
+
 
 print(0.5 + 0.5== 1)
 """
@@ -841,7 +862,6 @@ status= check_age(age)
 
 print("Name:", name)
 print("Status:", status)
-
 """
 
 
