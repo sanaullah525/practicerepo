@@ -841,7 +841,6 @@ status= check_age(age)
 
 print("Name:", name)
 print("Status:", status)
-
 """
 
 
