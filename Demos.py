@@ -810,8 +810,7 @@ div(42)
 """
 
 
-
-    
+"""
 def div(divideby):
     try:
         return 42/divideby
@@ -829,12 +828,7 @@ x= 0.1
 y= 0.2
 print(0.1+0.2== 0.3)
 
-
 print(0.5 + 0.5== 1)
-"""
-
-
-
 print(0.5 + 0.5== 1)
 """
 
