@@ -1,17 +1,9 @@
 Author: Sanaullah Khan
 
-Hi, I’m @sanaullahkhan
-This is my practice repository for learning python and practice Git and github.
+Welcome! This is the README file for the py-demos folder.
 
-👀 I’m passionate about Data Analysis, DevOps, and AIOps.
+As the name suggests, this repository is created to keep all my Python scripts organized and in one place as I continue learning and experimenting with different concepts. The main goal is to track my progress, document what I learn, and build a structured collection of small but meaningful projects over time.
 
-🌱 I’m currently learning Data analytics, MS Excel, Power BI, SQL, R, Cloud and DevOps practices.
+Each script or demo in this repository focuses on a specific topic, concept, or use case in Python. From basic syntax and data structures to automation, data analysis, and beyond. It serves as both a personal learning log and a reference for anyone who wants to explore similar ideas.
 
-📂 I enjoy building projects that connect data insights with automation and operations.
-
-I have reinstalled vs code after I faced crashed in VS code.
-
-<!---
-sanaullah525/sanaullah525 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Thank you for checking it out. More updates, improvements, and new demos will be added soon. Stay tuned!
