@@ -858,4 +858,25 @@ class Student:
         print(f"{self.name}, {self.age} y.o has scored {self.marks} in {self.subject}. He is a {self.religion} from {self.country}.")
 s1= Student("Ali", 23, 85, "muslim", "Computer Science", "malaysia")
 s1.show()
+
+class Student:
+    def __init__(self, name, marks):
+        self.name= name
+        self.marks= marks
+    def show(self):
+            print(f"{self.name} scored {self.marks}")
+
+class Staff:
+    def __init__(self, name, experience, qualification):
+        self.name= name
+        self.experience= experience
+        self.qualification= qualification
+    def show(self):
+        print(f"{self.name} has {self.experience} of experience and has successfully percieved his {self.qualification}.")
+
+s1= Student("Ali", 85)
+stf= Staff("Khan", "8 years", "PhD")
+s1.show()
+stf.show()
 """
+
