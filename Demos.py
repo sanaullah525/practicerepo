@@ -845,7 +845,7 @@ print("Status:", status)
 
 
 #...Classes Practice
-
+"""
 class Student:
     def __init__(self, name, age, marks, religion, subject, country):
         self.marks= marks
@@ -858,3 +858,4 @@ class Student:
         print(f"{self.name}, {self.age} y.o has scored {self.marks} in {self.subject}. He is a {self.religion} from {self.country}.")
 s1= Student("Ali", 23, 85, "muslim", "Computer Science", "malaysia")
 s1.show()
+"""
