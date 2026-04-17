@@ -917,3 +917,12 @@ def greeting(name):
 greeting("Rebecca")
 """
 
+"""
+# Function for the area of a Triangle.
+def aot(base, height):
+    area= (base*height)/2
+    print(f"The area of the given triangle is: {area}.")
+
+aot(2,4)
+"""
+
