@@ -921,14 +921,20 @@ def aot(base, height):
     area= (base*height)/2
     print(f"The area of the given triangle is: {area}.")
     return area
-
 aot(18,2)
-"""
+
 
 #Function for Converting Hour,Minute,Second to Total seconds.
 def get_seconds(hours, minutes, seconds):
     ts= 3600*hours+60*minutes+seconds
-    
     return print(f"Total seconds: {ts}")
-
 get_seconds(2,15,34)
+
+
+# Function for getting a lucky number.
+def lucky_num(name):
+    num= len(name)*9
+    return print(f"Hello {name}. You lucky number is {num}.")
+lucky_num("Azaz Khan")
+"""
+
