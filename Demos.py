@@ -902,7 +902,6 @@ class Spaceship:
        else:
            self.tractor_beam = 'off'
            print('Tractor beam off')
-
 class Car:
     wheels= 4
 c1= Car()
@@ -915,14 +914,21 @@ def greeting(name):
     print(f"{name}! You are part of the team now.")
 #..Function call.
 greeting("Rebecca")
-"""
 
-"""
+
 # Function for the area of a Triangle.
 def aot(base, height):
     area= (base*height)/2
     print(f"The area of the given triangle is: {area}.")
+    return area
 
-aot(2,4)
+aot(18,2)
 """
 
+#Function for Converting Hour,Minute,Second to Total seconds.
+def get_seconds(hours, minutes, seconds):
+    ts= 3600*hours+60*minutes+seconds
+    
+    return print(f"Total seconds: {ts}")
+
+get_seconds(2,15,34)
