@@ -946,3 +946,17 @@ for i in range(int(a)):
     print(y)
 """
 
+"""
+# This function takes an integer as an input and returns its factorial.
+def factorial(n):
+    # Exclude 0 as product, start with 1
+    y = 1
+    for i in range(int(n)):
+        y = y*(i+1)
+    return y
+
+print(f"Enter a number to get its factorial: ")
+input_num= input()
+print(f"Factorial of {input_num} is: {factorial(input_num)}")
+"""
+
