@@ -909,5 +909,11 @@ c1= Car()
 c2= Car()
 
 c1.wheels= 6
+
+def greeting(name):
+    print(f"Wellcome {name} !")
+    print(f"{name}! You are part of the team now.")
+#..Function call.
+greeting("Rebecca")
 """
 
