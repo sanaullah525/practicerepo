@@ -936,5 +936,13 @@ def lucky_num(name):
     num= len(name)*9
     return print(f"Hello {name}. You lucky number is {num}.")
 lucky_num("Azaz Khan")
+
+
+print("Please insert a number.")
+a= input();
+y= 1
+for i in range(int(a)):
+    y= y*(i+1)
+    print(y)
 """
 
