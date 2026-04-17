@@ -859,13 +859,13 @@ class Student:
 s1= Student("Ali", 23, 85, "muslim", "Computer Science", "malaysia")
 s1.show()
 
+
 class Student:
     def __init__(self, name, marks):
         self.name= name
         self.marks= marks
     def show(self):
             print(f"{self.name} scored {self.marks}")
-
 class Staff:
     def __init__(self, name, experience, qualification):
         self.name= name
@@ -873,10 +873,41 @@ class Staff:
         self.qualification= qualification
     def show(self):
         print(f"{self.name} has {self.experience} of experience and has successfully percieved his {self.qualification}.")
-
 s1= Student("Ali", 85)
 stf= Staff("Khan", "8 years", "PhD")
 s1.show()
 stf.show()
+"""
+
+"""
+class Spaceship:
+   # Class attribute
+   tractor_beam = 'off'
+
+   # Instance attributes
+   def __init__(self, name, kind):
+       self.name = name
+       self.kind = kind
+       self.speed = None
+
+  # Instance methods
+   def warp(self, warp):
+       self.speed = warp
+       print(f'Warp {warp}, engage!')
+
+   def tractor(self):
+       if self.tractor_beam == 'off':
+           self.tractor_beam = 'on'
+           print('Tractor beam on.')
+       else:
+           self.tractor_beam = 'off'
+           print('Tractor beam off')
+
+class Car:
+    wheels= 4
+c1= Car()
+c2= Car()
+
+c1.wheels= 6
 """
 
