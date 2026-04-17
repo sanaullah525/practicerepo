@@ -960,3 +960,11 @@ input_num= input()
 print(f"Factorial of {input_num} is: {factorial(input_num)}")
 """
 
+"""
+# Letters that occur earlier in the alphabet evaluate to less than letters from later in the alphabet.
+# BOTH sides of an `and` statement must be true to return True.
+
+print("Yellow" > "Cyan" and "Brown" > "Magenta")
+print("C" > "A")
+print("N" < "M")
+"""
