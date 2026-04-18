@@ -969,6 +969,16 @@ print("N" < "M")
 
 # `not` reverses Boolean evaluation of what follows it.
 print(not 42 == "Answer")
+
+
+def check_username(uname):
+    if len(uname) < 8:
+        print("Invalid username. Must be at least 8 characters long.")
+    elif len(uname) >= 8:
+        print("Valid username.")
+print("Insert username: ")
+uname= input(str())
+check_username(uname)
 """
 
 
