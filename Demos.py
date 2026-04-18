@@ -981,4 +981,19 @@ uname= input(str())
 check_username(uname)
 """
 
+"""
+# A function that uses modulo to check whether an integer is even or odd.
+def is_even(number):
+    if int(number) % 2 == 0:
+        print("The given integer is even.")
+    elif int(number) % 2 != 0:
+        print("The given integer is odd.")
+    else:
+        print("Invalid entry")
+
+print("Enter a number: ")
+intg= int(input())
+is_even(intg)
+"""
+
 
