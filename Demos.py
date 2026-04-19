@@ -1017,4 +1017,16 @@ def total_sales(price, num_tickets):
     result= round(price*num_tickets)
     return result
 print(total_sales(7.99, 59))
+print(total_sales(15.99, 1001))
 """
+
+
+def send_email(num_visits, visit_email):
+    if num_visits >= visit_email:
+        return "Send email."
+    else:
+        return "Not enough visits."
+#print(send_email(5,8))
+print(send_email(num_visits=3, visit_email=5))
+print(send_email(num_visits= 5, visit_email= 5))
+print(send_email(num_visits= 15, visit_email= 10))
