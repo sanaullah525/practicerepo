@@ -1030,9 +1030,7 @@ def send_email(num_visits, visit_email):
 print(send_email(num_visits=3, visit_email=5))
 print(send_email(num_visits= 5, visit_email= 5))
 print(send_email(num_visits= 15, visit_email= 10))
-"""
 
-"""
 def send_email(num_visits, visits_email, visits_coupon):
     if num_visits == visits_email:
         return "Send email only."
@@ -1040,8 +1038,12 @@ def send_email(num_visits, visits_email, visits_coupon):
         return "Send email with coupon."
     elif num_visits < visits_email:
         return "Not enough visits."
-print(send_email(3, 5, 8))
-print(send_email(5, 5, 8))
-print(send_email(8, 5, 8))
+    elif num_visits > visits_email or num_visits < visits_coupon:
+        return "Send email only."
+print(send_email(3,5,8))
+print(send_email(5,5,8))
+print(send_email(6,5,8))
+print(send_email(8,5,8))
+print(send_email(10,5,8))
 """
 
