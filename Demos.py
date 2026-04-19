@@ -1006,13 +1006,15 @@ def is_even(number):
 print("Enter an integer: ")
 result= int(input())
 print(is_even(result))
-"""
 
 
-"""
 def total_sales(n):
     revenue= n*7.99
     return revenue
 print(total_sales(59))
-"""
 
+def total_sales(price, num_tickets):
+    result= round(price*num_tickets)
+    return result
+print(total_sales(7.99, 59))
+"""
