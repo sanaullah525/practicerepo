@@ -1045,7 +1045,6 @@ print(send_email(5,5,8))
 print(send_email(6,5,8))
 print(send_email(8,5,8))
 print(send_email(10,5,8))
-"""
 
 # While loop for counter. 
 x= 0
@@ -1057,3 +1056,23 @@ while x < 5:
         print("There we are!")
     else:
         pass
+
+
+# Number guessing game in python.
+import random
+
+number= random.randint(1,25)
+num_guesses= 0
+
+while num_guesses < 5:
+    print(f"You have only have {5 - num_guesses} attmepts left.", end= "\n")
+    guess= int(input("Enter your guess: "))
+    num_guesses += 1
+
+    if guess == number:
+        print("Excellent guess!", end= "\n")
+    else:
+        print("Incorrect guess! Try again.", end= "\n\n")
+if guess != number:
+    print(f"Game over! The correct number was {number}.", end= "\n")
+"""
