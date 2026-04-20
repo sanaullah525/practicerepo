@@ -1071,6 +1071,7 @@ while num_guesses < 5:
 
     if guess == number:
         print("Excellent guess!", end= "\n")
+        break
     else:
         print("Incorrect guess! Try again.", end= "\n\n")
 if guess != number:
