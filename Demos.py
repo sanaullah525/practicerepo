@@ -1056,8 +1056,9 @@ while x < 5:
         print("There we are!")
     else:
         pass
+"""
 
-
+"""
 # Number guessing game in python.
 import random
 
@@ -1071,9 +1072,22 @@ while num_guesses < 5:
 
     if guess == number:
         print("Excellent guess!", end= "\n")
-        break
     else:
         print("Incorrect guess! Try again.", end= "\n\n")
 if guess != number:
     print(f"Game over! The correct number was {number}.", end= "\n")
+
+
+i = 0
+while i < 5:
+    if i == 2:
+        i += 1
+        continue
+    print("Running extra logic")
+    i += 1
+
+i= 0
+while i<5:
+    i += 1
+    print(f"Candy perchased: {i}")
 """
