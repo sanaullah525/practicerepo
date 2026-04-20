@@ -1077,7 +1077,6 @@ while num_guesses < 5:
 if guess != number:
     print(f"Game over! The correct number was {number}.", end= "\n")
 
-
 i = 0
 while i < 5:
     if i == 2:
@@ -1090,4 +1089,10 @@ i= 0
 while i<5:
     i += 1
     print(f"Candy perchased: {i}")
+
+i= 0
+while i <= 101:
+    if i % 10== 0:
+        print(f"Candy perchased: {i}")
+    i += 1
 """
