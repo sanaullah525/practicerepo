@@ -1095,4 +1095,26 @@ while i <= 101:
     if i % 10== 0:
         print(f"Candy perchased: {i}")
     i += 1
+
+from time import sleep
+mins= 10
+
+while mins > 0:
+    print(int(mins))
+    sleep(1)
+    mins -= 1
+    
+    if mins == 5:
+        print("Place your reservation soon! 5 minutes remaining.")
+    else:
+        pass
+    if mins == 2:
+        print("Don't lose your seats! 2 minutes remaining.")
+    else:
+        pass
+if mins == 0:
+  print("User timed out.")
+else:
+    pass
 """
+
