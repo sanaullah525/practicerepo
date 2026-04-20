@@ -1047,3 +1047,13 @@ print(send_email(8,5,8))
 print(send_email(10,5,8))
 """
 
+# While loop for counter. 
+x= 0
+while x < 5:
+    print("Not there yet, x= "+ str(x))
+    x= x+1
+    print("x=" + str(x))
+    if x== 5:
+        print("There we are!")
+    else:
+        pass
