@@ -1124,9 +1124,13 @@ if mins == 0:
 else:
     pass
 
+
 # Fahrenheit to Celcius.
 def to_celsius(x):
-    x= (5/9)*(x-32)
-    print(x)
-to_celsius(32)
+    return (5/9)*(x-32)
+
+for x in range(1, 101, 10):
+    print(x, to_celsius(x))
 """
+
+
