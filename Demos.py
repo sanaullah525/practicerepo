@@ -995,6 +995,13 @@ intg= int(input())
 is_even(intg)
 
 
+def is_odd(x):
+    if x % 2 == 0:
+        return "False"
+    return "True"
+print(is_odd(23))
+
+
 # Writing the above code using return in the function.
 def is_even(number):
     if number % 2 == 0:
@@ -1117,4 +1124,5 @@ if mins == 0:
 else:
     pass
 """
+
 
