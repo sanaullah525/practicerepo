@@ -1123,6 +1123,10 @@ if mins == 0:
   print("User timed out.")
 else:
     pass
+
+# Fahrenheit to Celcius.
+def to_celsius(x):
+    x= (5/9)*(x-32)
+    print(x)
+to_celsius(32)
 """
-
-
