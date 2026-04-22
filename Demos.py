@@ -1164,9 +1164,19 @@ def score_counter():
 print(score_counter())
 """
 
-# Dictionaries in python.
 
-chai_types= {"Masala": "Spicy", "Ginger": "Zesty", "Green tea": "Mild"}
+"""""""""""""""""""""""
+Dictionaries in python.
+"""""""""""""""""""""""
+
+chai_types= {"Masala": "Spicy", "Salt": "Salty",
+             "Ginger": "Zesty", "Green": "Mild", 
+             "Kashmiri": "Not in the menu"}
 print(chai_types)
-
 print(chai_types["Masala"])
+print(chai_types.get("Salt"))
+
+
+#...Methods with dictionaries in python.
+chai_types["Green"]= "Fresh"    # Changing a value of a tea in python's dictionary.
+print(chai_types)
