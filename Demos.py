@@ -1102,7 +1102,6 @@ while i <= 101:
     if i % 10== 0:
         print(f"Candy perchased: {i}")
     i += 1
-
 from time import sleep
 mins= 10
 
@@ -1110,7 +1109,7 @@ while mins > 0:
     print(int(mins))
     sleep(1)
     mins -= 1
-    
+
     if mins == 5:
         print("Place your reservation soon! 5 minutes remaining.")
     else:
@@ -1128,13 +1127,30 @@ else:
 # Fahrenheit to Celcius.
 def to_celsius(x):
     return (5/9)*(x-32)
-
 for x in range(1, 101, 10):
     print(x, to_celsius(x))
 
 
 score_list= [1,2,3,4,5,6,7,8,9,10]
+def score_counter(score_list):
+    negative_scores = 0
+    neutral_scores = 0
+    positive_scores = 0
 
+    for score in score_list:
+        if score >= 9:
+            positive_scores += 1
+        elif score >= 6:
+            neutral_scores += 1
+        else:
+            negative_scores += 1
+    print('Negative:', negative_scores)
+    print('Neutral:', neutral_scores)
+    print('Positive:', positive_scores)
+score_counter(score_list)
+
+
+score_list= [1,2,3,4,5,6,7,8,9,10]
 def score_counter():
     bins= {"Negative": [], "Neutral": [], "Positive": []}
     for score in score_list:
@@ -1147,5 +1163,3 @@ def score_counter():
     return bins
 print(score_counter())
 """
-
-
