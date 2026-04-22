@@ -1163,3 +1163,10 @@ def score_counter():
     return bins
 print(score_counter())
 """
+
+# Dictionaries in python.
+
+chai_types= {"Masala": "Spicy", "Ginger": "Zesty", "Green tea": "Mild"}
+print(chai_types)
+
+print(chai_types["Masala"])
