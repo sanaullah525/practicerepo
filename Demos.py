@@ -1131,6 +1131,21 @@ def to_celsius(x):
 
 for x in range(1, 101, 10):
     print(x, to_celsius(x))
+
+
+score_list= [1,2,3,4,5,6,7,8,9,10]
+
+def score_counter():
+    bins= {"Negative": [], "Neutral": [], "Positive": []}
+    for score in score_list:
+        if score <= 5:
+            bins["Negative"].append(score)
+        elif score <= 8:
+            bins["Neutral"].append(score)
+        else:
+            bins["Positive"].append(score)
+    return bins
+print(score_counter())
 """
 
 
