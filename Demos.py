@@ -1165,6 +1165,7 @@ print(score_counter())
 """
 
 
+
 """""""""""""""""""""""
 Dictionaries in python.
 """""""""""""""""""""""
@@ -1179,4 +1180,12 @@ print(chai_types.get("Salt"))
 
 #...Methods with dictionaries in python.
 chai_types["Green"]= "Fresh"    # Changing a value of a tea in python's dictionary.
-print(chai_types)
+print(chai_types, "\n")
+
+for chai in chai_types:
+    print(chai)
+
+# Looping on a dictionary.
+
+for key, value in chai_types.items():
+    print(key, value)
