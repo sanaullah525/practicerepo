@@ -1166,9 +1166,10 @@ print(score_counter())
 
 
 
-"""""""""""""""""""""""
-Dictionaries in python.
-"""""""""""""""""""""""
+#########################
+# Dictionaries in python.
+#########################
+
 """
 chai_types= {"Masala": "Spicy", "Salt": "Salty",
              "Ginger": "Zesty", "Green": "Mild", 
@@ -1206,4 +1207,41 @@ print("\n")
 
 if "Green" in chai_types:
     print("I have Green tea.", "\n")
+"""
+
+
+
+############################
+# Function testing in python.
+############################
+"""
+import random
+random.seed(42)
+
+score_list= [1,2,3,4,5,6,7,8,9,10]
+def score_counter(score_list):
+    bins= {"Negative": [], "Neutral": [], "Positive": []}
+    for score in score_list:
+        if score <= 5:
+            bins["Negative"].append(score)
+        elif score <= 8:
+            bins["Neutral"].append(score)
+        else:
+            bins["Positive"].append(score)
+    Neg= len(bins["Negative"])
+    Neu= len(bins["Neutral"])
+    Pos= len(bins["Positive"])
+    print(f"Negative: {Neg}, Neutral: {Neu}, Positive: {Pos}")
+
+possible_scores= list(range(1,11))
+score_list1 = random.choices(possible_scores, weights=[8,8,8,8,8,3,3,4,20,30], k=10)
+score_list2 = random.choices(possible_scores, weights=[1,2,3,4,5,10,15,15,7,9], k=450)
+score_list3 = random.choices(possible_scores, weights=[1,2,3,4,4,5,5,10,15,25], k=10000)
+
+print('Test 1:')
+score_counter(score_list1)
+print('\nTest 2: ')
+score_counter(score_list2)
+print('\nTest 3: ')
+score_counter(score_list3)
 """
