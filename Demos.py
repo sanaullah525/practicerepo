@@ -1244,4 +1244,23 @@ print('\nTest 2: ')
 score_counter(score_list2)
 print('\nTest 3: ')
 score_counter(score_list3)
+
+
+# ID validator in python.
+
+def id_validator(verified_ids, feedback_ids):
+    unverified_feedback= [id for id in feedback_ids if id not in verified_ids]
+
+    percent_unverified= (len(unverified_feedback)/len(feedback_ids))*100
+    print(len(unverified_feedback), 'of', len(feedback_ids), "ID's unverified.")
+    print(str(round(percent_unverified, 2)) + "% ID's unverified.")
+
+id_validator(['1','2','3','4','5','6','7','8'], ['1','2','9','11','3'])
+
+import ada_c2_labs as lab
+
+print('Test 1: ')
+ver1, fb1 = lab.lists_gen(8, 20, 15, 15)
+
+id_validator(ver1, fb1)
 """
