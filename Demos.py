@@ -1211,10 +1211,11 @@ if "Green" in chai_types:
 
 
 
-############################
+#############################
 # Function testing in python.
-############################
+#############################
 """
+
 import random
 random.seed(42)
 
@@ -1264,3 +1265,20 @@ ver1, fb1 = lab.lists_gen(8, 20, 15, 15)
 
 id_validator(ver1, fb1)
 """
+
+
+#################
+#..Sales counter.
+#################
+
+sales = [[2.75], [50.0, 50.0], [150.46, 200.12, 111.30]]
+
+def purchases_100(sales):
+    result= []
+    for sale in sales:
+        if sum(sale) > 100:
+            result.append(sale)
+    return result
+
+purchases_100(sales)
+
