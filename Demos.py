@@ -1212,7 +1212,7 @@ if "Green" in chai_types:
 
 
 #############################
-# Function testing in python.
+#..Function testing in python.
 #############################
 """
 
@@ -1264,21 +1264,33 @@ print('Test 1: ')
 ver1, fb1 = lab.lists_gen(8, 20, 15, 15)
 
 id_validator(ver1, fb1)
-"""
 
 
 #################
 #..Sales counter.
 #################
-
 sales = [[2.75], [50.0, 50.0], [150.46, 200.12, 111.30]]
-
 def purchases_100(sales):
     result= []
     for sale in sales:
         if sum(sale) > 100:
             result.append(sale)
     return result
-
 purchases_100(sales)
+
+
+#################################
+#..Testing Sales_counter function.
+#################################
+import ada_c2_labs as lab
+sales1 = lab.sales_data_generator(n_customers=10, seed=1)  
+print('Test 1:', purchases_100(sales1))
+
+sales2 = lab.sales_data_generator(n_customers=150, seed=18)
+print('Test 2:', purchases_100(sales2))
+
+sales3 = lab.sales_data_generator(n_customers=1275, seed=42)
+print('Test 3:', purchases_100(sales3))
+"""
+
 
