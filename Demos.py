@@ -1169,23 +1169,41 @@ print(score_counter())
 """""""""""""""""""""""
 Dictionaries in python.
 """""""""""""""""""""""
-
+"""
 chai_types= {"Masala": "Spicy", "Salt": "Salty",
              "Ginger": "Zesty", "Green": "Mild", 
              "Kashmiri": "Not in the menu"}
 print(chai_types)
 print(chai_types["Masala"])
-print(chai_types.get("Salt"))
 
 
 #...Methods with dictionaries in python.
 chai_types["Green"]= "Fresh"    # Changing a value of a tea in python's dictionary.
 print(chai_types, "\n")
+print(chai_types.get("Salt"))
 
+greentea= chai_types.get("Green")
+print(greentea)
+
+chai_types.update({"Salt": "Undrinkable"})
+print(chai_types, "\n")
+
+# We don't need .update() for one key.
+chai_types["Salt"]= "Salty"
+print(chai_types)
+
+
+# Looping on a dictionary.
 for chai in chai_types:
     print(chai)
 
-# Looping on a dictionary.
+print("\n")
 
 for key, value in chai_types.items():
+    #We can print both key and value inside the for loop.
     print(key, value)
+print("\n")
+
+if "Green" in chai_types:
+    print("I have Green tea.", "\n")
+"""
