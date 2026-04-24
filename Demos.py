@@ -1327,5 +1327,10 @@ print(text[:2])
 print(text[:3]) # Pyt. Starts slicing from the begining to letter 
 print(text[:4])
 print(text[:5])
-print(text[:6])
+print(text[:6], "\n")
+
+#..[::n] picks index 0, n, 2n, 3n... and stops when index goes out of string length.
+print(text[::3]) # Ph. start from beginning, jump every 3rd character of 'text'.
+print(text[::1])  # Python → every 1st char (all)
+
 
