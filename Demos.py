@@ -1318,7 +1318,14 @@ print(word[3]) # h
 
 # String slicing
 text= "Python"
+
 print(text[0:2])
 print(text[2:4])
-print(text[4:6])
+print(text[4:6], "\n")
+print(text[:1])
+print(text[:2])
+print(text[:3]) # Pyt. Starts slicing from the begining to letter 
+print(text[:4])
+print(text[:5])
+print(text[:6])
 
