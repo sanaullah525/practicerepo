@@ -1413,3 +1413,10 @@ var_b = 2
 print(f'\n{var_a} + {var_b}')
 print(f'{var_a + var_b}')
 print(f'var_a = {var_a} \nvar_b = {var_b}\n')
+
+#...FLoat formatting options.
+num = 1000.987123
+print(f'{num:.3e}')
+
+decimal = 0.2497856
+print(f'{decimal:.4%}')
