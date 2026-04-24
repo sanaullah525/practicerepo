@@ -1405,3 +1405,11 @@ print('{0}, {1}'.format(var_a, var_b))
 print('\n{}, {}, {}, {}, {}, {} ...'.format(1, 2, 3, 4, 5, 6))
 # We can also repeat arguments.
 print('{0}{1}{0}'.format('abra', 'cad'))
+
+
+#...Literal string interpolation (f-strings)
+var_a = 1
+var_b = 2
+print(f'\n{var_a} + {var_b}')
+print(f'{var_a + var_b}')
+print(f'var_a = {var_a} \nvar_b = {var_b}\n')
