@@ -1435,3 +1435,11 @@ print(my_string.count('y', 2, 7)) # Begin searching at index 2, Stop searching a
 my_string = 'Happy birthday'
 my_string.find('birth')
 
+# It uses .join() to glue the list items together.
+# placing a space ' ' between each word.
+
+separator_string = ' '
+iterable_of_strings = ['Happy', 'birthday', 'to', 'you']
+
+separator_string.join(iterable_of_strings)
+
