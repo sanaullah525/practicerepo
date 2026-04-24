@@ -1361,3 +1361,11 @@ print(my_string[:11])
 greeting= "Hello World!"
 print("\n", greeting[::2])   # Every 2nd character: Hlo ol!
 print(greeting[::-1])  # Reversed: !dlroW ,olleH
+
+# format() method in strings.
+name= 'Khan'
+number= 3
+print("Hello {}. Your lucky number is {}.".format(name, number))
+
+# Using integers to insert into strings to indicate the order value of insertion.
+print("Hello {1}. Your lucky number is {0}.\n".format(number, name))
