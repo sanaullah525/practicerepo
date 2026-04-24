@@ -1306,3 +1306,19 @@ print('Test 3:', purchases_100(sales3))
 """
 
 
+##################################
+#..Working with strings in python.
+##################################
+
+"""
+word= "python"
+print(word[0]) # p
+print(word[3]) # h
+"""
+
+# String slicing
+text= "Python"
+print(text[0:2])
+print(text[2:4])
+print(text[4:6])
+
