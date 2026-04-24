@@ -1369,3 +1369,8 @@ print("Hello {}. Your lucky number is {}.".format(name, number))
 
 # Using integers to insert into strings to indicate the order value of insertion.
 print("Hello {1}. Your lucky number is {0}.\n".format(number, name))
+
+# Setting a limit in the decimal places on the number of the output.
+price= 7.75
+with_tax= price*1.07
+print("Base price: ${:.2f} USD \nWith tax: $ {:.2f} USD.".format(price, with_tax))
