@@ -542,6 +542,12 @@ import random
 
 for i in range(12):
     print(random.randint(1,10))
+
+
+py= "Python"
+
+for letter in py:
+    print(letter + "ut")
 '''
 
 """
