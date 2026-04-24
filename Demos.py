@@ -628,6 +628,12 @@ for word in words:
     print(word, sep= " ", end= "",flush= True)
     time.sleep(0.5)
 print("\nin english.")
+
+
+string1= "Hello"
+string2= "World"
+
+print(string1 + string2)
 """
 
 """
@@ -1279,9 +1285,9 @@ def purchases_100(sales):
 purchases_100(sales)
 
 
-#################################
+##################################
 #..Testing Sales_counter function.
-#################################
+##################################
 import ada_c2_labs as lab
 sales1 = lab.sales_data_generator(n_customers=10, seed=1)  
 print('Test 1:', purchases_100(sales1))
