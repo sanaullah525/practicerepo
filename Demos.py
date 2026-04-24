@@ -1331,6 +1331,13 @@ print(text[:6], "\n")
 
 #..[::n] picks index 0, n, 2n, 3n... and stops when index goes out of string length.
 print(text[::3]) # Ph. start from beginning, jump every 3rd character of 'text'.
-print(text[::1])  # Python → every 1st char (all)
+print(text[::1])  # Python → every 1st char (all).
 
-
+print("\n") #...Prints an empty line.
+# Printing the index of a character in a string.
+print(text.index("P"))
+print(text.index("y"))
+print(text.index("t"))
+print(text.index("h"))
+print(text.index("o"))
+print(text.index("n"))
