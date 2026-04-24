@@ -1419,4 +1419,19 @@ num = 1000.987123
 print(f'{num:.3e}')
 
 decimal = 0.2497856
-print(f'{decimal:.4%}')
+print(f'{decimal:.4%}\n')
+
+
+#...String methods.
+
+my_string = 'Happy birthday'
+print(my_string.count('y'))   # 2. Count 'y' in the given string.
+
+# str.count(sub[, start[, end]]) \
+# Count How many times 'y' appears in a specific slice of my_string.
+print(my_string.count('y', 2, 7)) # Begin searching at index 2, Stop searching at 7.
+
+#...Using find() to assess the index of a specific slice of a string.
+my_string = 'Happy birthday'
+my_string.find('birth')
+
