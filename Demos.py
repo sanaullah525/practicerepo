@@ -1341,3 +1341,14 @@ print(text.index("t"))
 print(text.index("h"))
 print(text.index("o"))
 print(text.index("n"))
+
+# Using square brackets to perform indexing.
+my_string, my_list = 'Mississippi half-step' , [1, 'unladen', 'swallow']
+
+print( "\n", my_string[0])
+print(my_list[1])
+print(my_list[-1])
+print(my_list[2])
+
+# Assessing part of the string using square brackets.
+print(my_list[0:2])
