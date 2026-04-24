@@ -1401,3 +1401,7 @@ var_b = 'B'
 print('{1}, {0}'.format(var_a, var_b))
 print('{0}, {1}'.format(var_a, var_b))
 
+# We can have as many arguments as we want.
+print('\n{}, {}, {}, {}, {}, {} ...'.format(1, 2, 3, 4, 5, 6))
+# We can also repeat arguments.
+print('{0}{1}{0}'.format('abra', 'cad'))
