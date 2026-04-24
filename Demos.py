@@ -1390,9 +1390,14 @@ y = 100
 print('''String formatting lets you insert {} into strings.
 They can even be numbers, like {}.'''.format(x, y))
 
-
 #...Insert values into braces using explicitly assigned keyword names.
 var_a = 'A'
 var_b = 'B'
 print('\n{a}, {b}'.format(b=var_b, a=var_a))
+
+# Using index numbers for insertion in specific spots.
+var_a = 'A'
+var_b = 'B'
+print('{1}, {0}'.format(var_a, var_b))
+print('{0}, {1}'.format(var_a, var_b))
 
