@@ -1350,5 +1350,14 @@ print(my_list[1])
 print(my_list[-1])
 print(my_list[2])
 
+
 # Assessing part of the string using square brackets.
 print(my_list[0:2])
+print(my_string[-9:]) # Assessing substring from the end.
+print(my_string[:11])
+
+### Assessing string from with steps.
+#my_string[start:stop:step]
+greeting= "Hello World!"
+print("\n", greeting[::2])   # Every 2nd character: Hlo ol!
+print(greeting[::-1])  # Reversed: !dlroW ,olleH
