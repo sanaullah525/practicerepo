@@ -1314,7 +1314,6 @@ print('Test 3:', purchases_100(sales3))
 word= "python"
 print(word[0]) # p
 print(word[3]) # h
-"""
 
 # String slicing
 text= "Python"
@@ -1380,4 +1379,13 @@ def to_celsius(x):
     return (x-32)* 5/9
 for x in range(0,101,10):
     print("{:>3} F | {:>6.2f} C".format(x, to_celsius(x)))
+"""
+
+
+# String formatting and regular expressions.
+x = 'values'
+y = 100
+
+print('''String formatting lets you insert {} into strings.
+They can even be numbers, like {}.'''.format(x, y))
 
