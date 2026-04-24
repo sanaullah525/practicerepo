@@ -1373,4 +1373,11 @@ print("Hello {1}. Your lucky number is {0}.\n".format(number, name))
 # Setting a limit in the decimal places on the number of the output.
 price= 7.75
 with_tax= price*1.07
-print("Base price: ${:.2f} USD \nWith tax: $ {:.2f} USD.".format(price, with_tax))
+print("Base price: ${:.2f} USD \nWith tax: $ {:.2f} USD.\n".format(price, with_tax))
+
+
+def to_celsius(x):
+    return (x-32)* 5/9
+for x in range(0,101,10):
+    print("{:>3} F | {:>6.2f} C".format(x, to_celsius(x)))
+
