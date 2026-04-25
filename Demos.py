@@ -1465,7 +1465,6 @@ print(zip_checker("2806"))
 print(zip_checker("9280"))
 print(zip_checker("0280"))
 print(zip_checker("00280"))
-
 """
 
 # def multi_line():
@@ -1475,8 +1474,7 @@ print(zip_checker("00280"))
 # print(multi_line())
 
 
-
-
+"""
 def url_checker(url):
     protocol= url[:6:]
     store_id = url.split('/')[-1]  # splits on '/' and takes the last part.
@@ -1490,4 +1488,13 @@ def url_checker(url):
         return store_id
 
 url_checker('http://exampleURL1.com/r626c390')
+url_checker('http://exampleURL1.com/r626c3')    # 'http: is an invalid protocol.'
+print()                                         # 'r626c3 is an invalid store ID.'
+url_checker('ftps://exampleURL1.com/r626c36')   # 'ftps: is an invalid protocol.
+print()
+url_checker('https://exampleURL1.com/r626c3')   # 'r626c3 is an invalid store ID.'
+print()
+url_checker('https://exampleURL1.com/r626c36')  # 'r626c36'
+"""
+
 
