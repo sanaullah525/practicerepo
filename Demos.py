@@ -1437,7 +1437,6 @@ my_string.find('birth')
 
 # It uses .join() to glue the list items together.
 # placing a space ' ' between each word.
-
 separator_string = ' '
 iterable_of_strings = ['Happy', 'birthday', 'to', 'you']
 separator_string.join(iterable_of_strings)
@@ -1445,5 +1444,6 @@ separator_string.join(iterable_of_strings)
 # Below code Splits my_string into exactly 3 parts based on the separator '.',
 #  and returns a tuple.
 my_string = 'https://www.google.com/'
-my_string.partition('.')
+print(my_string.partition('.'))
+
 
