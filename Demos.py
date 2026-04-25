@@ -1466,10 +1466,27 @@ print(zip_checker("9280"))
 print(zip_checker("0280"))
 print(zip_checker("00280"))
 
-def multi_line():
-    return """First Line
-Second Line
-Third Line"""
-print(multi_line())
 """
 
+# def multi_line():
+#     return """First Line
+# Second Line
+# Third Line"""
+# print(multi_line())
+
+
+
+
+def url_checker(url):
+    protocol= url[:6:]
+    store_id = url.split('/')[-1]  # splits on '/' and takes the last part.
+    if protocol != 'https:' and len(store_id) != 7:
+        print(f"{protocol} is an invalid protocol.\n{store_id} is an invalid store ID.")
+    elif protocol != 'https:':
+        print(f"{protocol} is an invalid protocol.")
+    elif len(store_id) != 7:
+        print(f"{store_id} is an invalid store ID.")
+    else:
+        return url
+
+url_checker('http://exampleURL1.com/r626c390')
