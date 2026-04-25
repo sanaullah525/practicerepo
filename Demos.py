@@ -1445,7 +1445,6 @@ separator_string.join(iterable_of_strings)
 #  and returns a tuple.
 my_string = 'https://www.google.com/'
 print(my_string.partition('.')\n)
-"""
 
 
 # ZIP code checker function.
@@ -1466,3 +1465,11 @@ print(zip_checker("2806"))
 print(zip_checker("9280"))
 print(zip_checker("0280"))
 print(zip_checker("00280"))
+
+def multi_line():
+    return """First Line
+Second Line
+Third Line"""
+print(multi_line())
+"""
+
