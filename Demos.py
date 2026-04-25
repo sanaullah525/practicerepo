@@ -1461,4 +1461,8 @@ def zip_checker(zipcode):
         else:
             return "Invalid ZIP code!"
 
+print(zip_checker("02806"))
+print(zip_checker("2806"))
 print(zip_checker("9280"))
+print(zip_checker("0280"))
+print(zip_checker("00280"))
