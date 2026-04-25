@@ -1487,6 +1487,7 @@ def url_checker(url):
     elif len(store_id) != 7:
         print(f"{store_id} is an invalid store ID.")
     else:
-        return url
+        return store_id
 
 url_checker('http://exampleURL1.com/r626c390')
+
