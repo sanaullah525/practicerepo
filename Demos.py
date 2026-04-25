@@ -1382,7 +1382,7 @@ for x in range(0,101,10):
 """
 
 
-
+"""
 # String formatting and regular expressions.
 
 x = 'values'
@@ -1444,6 +1444,21 @@ separator_string.join(iterable_of_strings)
 # Below code Splits my_string into exactly 3 parts based on the separator '.',
 #  and returns a tuple.
 my_string = 'https://www.google.com/'
-print(my_string.partition('.'))
+print(my_string.partition('.')\n)
+"""
 
 
+# ZIP code checker function.
+
+def zip_checker(zipcode):
+    if len(zipcode)== 5 and zipcode[:2] != '00':
+        return str(zipcode)
+    elif len(zipcode) == 4 and zipcode[0] != '0':
+        return '0' + zipcode
+    else:
+        if zipcode[0] != '0':
+            return '0' + zipcode
+        else:
+            return "Invalid ZIP code!"
+
+print(zip_checker("9280"))
