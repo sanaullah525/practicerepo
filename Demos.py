@@ -1498,3 +1498,6 @@ url_checker('https://exampleURL1.com/r626c36')  # 'r626c36'
 """
 
 
+sport= "football"
+print(sport[4: ])
+print(sport[-4: ])
