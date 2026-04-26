@@ -1459,7 +1459,6 @@ def zip_checker(zipcode):
             return '0' + zipcode
         else:
             return "Invalid ZIP code!"
-
 print(zip_checker("02806"))
 print(zip_checker("2806"))
 print(zip_checker("9280"))
@@ -1486,7 +1485,6 @@ def url_checker(url):
         print(f"{store_id} is an invalid store ID.")
     else:
         return store_id
-
 url_checker('http://exampleURL1.com/r626c390')
 url_checker('http://exampleURL1.com/r626c3')    # 'http: is an invalid protocol.'
 print()                                         # 'r626c3 is an invalid store ID.'
@@ -1500,4 +1498,22 @@ url_checker('https://exampleURL1.com/r626c36')  # 'r626c36'
 
 sport= "football"
 print(sport[4: ])
-print(sport[-4: ])
+print(sport[-4: ], "\n")
+
+
+#...Lists in python...#
+
+
+x= ["Now", "we", "are", "cooking", "with", 7, "ingredients"]
+# Print element at index 3 and 7.
+print(x[3], "\n")
+
+# Trying to access an index not in list will result in IndexError.
+try:
+    print(x[7], "\n")
+except IndexError:
+    print("The given index does not exist.\n")
+
+# Access the part of a list by slicing.
+print(x[1:3], "\n")
+
