@@ -1526,3 +1526,12 @@ print(type(x), "\n")
 
 # The 'in' keyword lets you check if a value is contained in a list.
 print("This" in x, "\n")
+
+
+
+# Modify the contents of a list.
+
+# The append() method adds an element to the end of a list.
+fruits= ["Pineapple", "Banana", "Apple", "Melon"]
+fruits.append("Kiwi")
+print(fruits, "\n")
