@@ -1517,3 +1517,12 @@ except IndexError:
 # Access the part of a list by slicing.
 print(x[1:3], "\n")
 
+# Omitting the first value of the slice implies 0.
+x= ["Now", "we", "are", "cooking", "with", 7, "ingredients."]
+x[:2]
+
+# Check the type of an object using the type() function.
+print(type(x), "\n")
+
+# The 'in' keyword lets you check if a value is contained in a list.
+print("This" in x, "\n")
