@@ -1496,13 +1496,13 @@ url_checker('https://exampleURL1.com/r626c36')  # 'r626c36'
 """
 
 
-sport= "football"
-print(sport[4: ])
-print(sport[-4: ], "\n")
+# sport= "football"
+# print(sport[4: ])
+# print(sport[-4: ], "\n")
 
 
-#...Lists in python...#
 
+###--Lists_in_python--###
 
 x= ["Now", "we", "are", "cooking", "with", 7, "ingredients"]
 # Print element at index 3 and 7.
@@ -1528,7 +1528,6 @@ print(type(x), "\n")
 print("This" in x, "\n")
 
 
-
 # Modify the contents of a list.
 
 # The append() method adds an element to the end of a list.
@@ -1549,5 +1548,25 @@ print(fruits)
 # The pop() method removes the element at the given index and returns it.
 # If no index is given, it removes and returns the last element.
 fruits.pop(2)
-print(fruits)
+fruits
+
+# Reassign the element at a given index with a new value.
+fruits[1]= "Mango"
+fruits
+
+# Strings are immutable because you have to reassign them to modify them.
+power= "1.21"
+power= power + ' gigawatts'
+print(power, "\n")
+
+# You cannot reassign a specific character within a string.
+try:
+    power[0]= '2'
+except: TypeError
+print("Strings are immutable!\n")
+
+# Lists are mutable because you can overwrite their elements.
+power= [1.21, ' gigawatts']
+power[0]= 2.21
+print(power, "\n")
 
