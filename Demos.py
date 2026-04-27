@@ -1535,3 +1535,8 @@ print("This" in x, "\n")
 fruits= ["Pineapple", "Banana", "Apple", "Melon"]
 fruits.append("Kiwi")
 print(fruits, "\n")
+
+# The insert() method adds an element to a list at the specified index.
+fruits.insert(1, "Orange")
+print(fruits, "\n")
+
