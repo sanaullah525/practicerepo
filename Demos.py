@@ -1539,4 +1539,15 @@ print(fruits, "\n")
 # The insert() method adds an element to a list at the specified index.
 fruits.insert(1, "Orange")
 print(fruits, "\n")
+fruits.insert(0, "Mango")
+print(fruits, "\n")
+
+# The remove() method deletes the first occurence of an element in a list.
+fruits.remove("Banana")
+print(fruits)
+
+# The pop() method removes the element at the given index and returns it.
+# If no index is given, it removes and returns the last element.
+fruits.pop(2)
+print(fruits)
 
