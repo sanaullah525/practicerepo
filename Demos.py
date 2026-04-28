@@ -1591,3 +1591,40 @@ full_name= ['Masha', 'Z', 'Hopper']
 full_name= tuple(full_name)
 print(type(full_name), "\n")
 
+# Function that return multiple values return them in a tuple.
+def to_dollar_cents(price):
+    dollars= int(price // 1)
+    cents= round((price % 1)*100)
+    return dollars, cents
+
+#   return f"${dollars}, {cents}¢\n"
+
+print(to_dollar_cents(4.99))
+
+# "Unpacking" a tuple allows a tuple's elements to be assigned to variables.
+dollars, cents= to_dollar_cents(4.99)
+print(dollars + 1), print(cents + 1)
+
+# The data type of an element of an unpacked tuple is not necessarily a tuple.
+print(type(dollars), "\n")
+
+# Unpacking tuples in python.
+person = ("Alice", 30, "Engineer") #Tuple with multiple values.
+name, age, job = person
+print(person, "\n")
+
+team= [
+    ('Marta', 20, 'center'),
+    ('Ana', 22, 'point guard'),
+    ('Gabi', 22, 'shooting guard'),
+    ('Luz', 21, 'power forward'),
+    ('Lorena', 19, 'small forward'),
+    ]
+for name, age, position in team:
+    print(name)
+print("\n")
+
+for player in team:
+    print(player[0])
+print("\n")
+
