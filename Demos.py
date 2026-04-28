@@ -1501,7 +1501,7 @@ url_checker('https://exampleURL1.com/r626c36')  # 'r626c36'
 # print(sport[-4: ], "\n")
 
 
-
+"""
 ###--Lists_in_python--###
 
 x= ["Now", "we", "are", "cooking", "with", 7, "ingredients"]
@@ -1569,4 +1569,25 @@ print("Strings are immutable!\n")
 power= [1.21, ' gigawatts']
 power[0]= 2.21
 print(power, "\n")
+"""
+
+
+###--Introduction_to_tuples--###
+
+full_name= ('Masha', 'Z', 'Hopper')
+
+# Tuples are immutable, so their elements cannot be overwritten.
+try:
+    full_name[2]= "Copper"
+except:
+    print("'tuple' object does not support item assignment!!!\n")
+
+# You can combine tuples using addition.
+full_name= full_name + ('Jr', )
+print(full_name, "\n")
+
+# The tuple() function converts an object's data type to tuple.
+full_name= ['Masha', 'Z', 'Hopper']
+full_name= tuple(full_name)
+print(type(full_name), "\n")
 
