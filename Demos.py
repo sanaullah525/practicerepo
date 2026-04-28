@@ -1571,7 +1571,7 @@ power[0]= 2.21
 print(power, "\n")
 """
 
-
+"""
 ###--Introduction_to_tuples--###
 
 full_name= ('Masha', 'Z', 'Hopper')
@@ -1627,4 +1627,36 @@ print("\n")
 for player in team:
     print(player[0])
 print("\n")
+"""
 
+
+###...More with loops, lists and tuples...###
+
+team = [
+    ('Xavi',       31, 'central midfielder'),
+    ('Iniesta',    27, 'attacking midfielder'),
+    ('Busquets',   22, 'defensive midfielder'),
+    ('Messi',      23, 'forward'),
+    ('Villa',      29, 'striker'),
+    ('Puyol',      33, 'centre back'),
+    ('Piqué',      24, 'centre back'),
+    ('Alves',      28, 'right back'),
+    ('Abidal',     29, 'left back'),
+    ('Valdés',     29, 'goalkeeper'),
+    ('Pedro',      23, 'winger'),
+]
+
+# Create a function to extract names and positions from the team list and format 
+# them to be printed. Returns a list.
+
+def player_position(players):
+    result = []
+    for name, age, position in players:
+        result.append('Name: {:>15} \nPosition: {:>12}\n'.format(name, position))
+    return result
+
+# Loop over the list of formatted names and positions produced by
+# player_position() function and print them.
+
+for player in player_position(team):
+    print(player)
