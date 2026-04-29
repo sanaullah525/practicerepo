@@ -1502,7 +1502,9 @@ url_checker('https://exampleURL1.com/r626c36')  # 'r626c36'
 
 
 """
-###--Lists_in_python--###
+#############################################
+###...Lists in python...###
+#############################################
 
 x= ["Now", "we", "are", "cooking", "with", 7, "ingredients"]
 # Print element at index 3 and 7.
@@ -1631,7 +1633,7 @@ print("\n")
 
 #############################################
 ###...More with loops, lists and tuples...###
-#############################################
+
 team = [
     ('Xavi',       31, 'central midfielder'),
     ('Iniesta',    27, 'attacking midfielder'),
@@ -1695,4 +1697,23 @@ pips_from_loop == pips_from_list_comp
 print(pips_from_loop == pips_from_list_comp, "\n")
 """
 
+
+#############################################
+###...Introduction_to_dictionaries...###
+
+# Creating a dictionary with pens as keys and the animals they contains as values.
+# Dictionaries can be instantiated using braces.
+
+zoo= {
+    'pen1':'zebras', 'pen2':'penguins', 'pen3':'lions'
+}
+print(zoo['pen2'], "\n")
+
+# You cannot access a dictionary's value by name using a bracket indexing
+# Because the computer interprets this as a key
+try:
+    zoo['zebra']
+except KeyError:
+    print("A dictionary's value cannot be accessed" \
+    " by name using a bracket indexing.")
 
