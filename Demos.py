@@ -1660,7 +1660,6 @@ def player_position(players):
 
 for player in player_position(team):
     print(player)
-"""
 
 ### Nested loops can produce the different combinations of pips (dots) in a set
 #   of dominoes.
@@ -1694,4 +1693,6 @@ pips_from_loop == pips_from_list_comp
 # Confirmng that both the lists created from the loops and from the 
 # list comprehension have yielded in the same result.
 print(pips_from_loop == pips_from_list_comp, "\n")
+"""
+
 
