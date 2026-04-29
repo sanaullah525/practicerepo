@@ -1667,5 +1667,31 @@ for player in player_position(team):
 for left in range(7):
     for right in range(left, 7):
         print(f"[{right}|{left}] ")
-    print("\n")
-    
+    print()
+
+
+# Create a list of dominoes, with each domino represented as a tuple.
+dominoes= []
+
+for left in range(7):
+    for right in range(left, 7):
+        dominoes.append((left, right))
+print(dominoes, "\n")
+
+# Selecting index 1 of the tuple at index 4 in the list of dominoes.
+dominoes[4][1]
+
+# Using a for loop to sum the pips in each domino and opened the sum to a new list.
+pips_from_loop= []
+for domino in dominoes:
+    pips_from_loop.append(domino[0]+domino[1])
+print(pips_from_loop, "\n")
+
+# A list comprehension produces the same result with less code.
+pips_from_list_comp= [domino[0]+domino[1] for domino in dominoes]
+pips_from_loop == pips_from_list_comp
+
+# Confirmng that both the lists created from the loops and from the 
+# list comprehension have yielded in the same result.
+print(pips_from_loop == pips_from_list_comp, "\n")
+
