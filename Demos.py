@@ -1627,11 +1627,11 @@ print("\n")
 for player in team:
     print(player[0])
 print("\n")
-"""
 
 
+#############################################
 ###...More with loops, lists and tuples...###
-
+#############################################
 team = [
     ('Xavi',       31, 'central midfielder'),
     ('Iniesta',    27, 'attacking midfielder'),
@@ -1660,3 +1660,12 @@ def player_position(players):
 
 for player in player_position(team):
     print(player)
+"""
+
+### Nested loops can produce the different combinations of pips (dots) in a set
+#   of dominoes.
+for left in range(7):
+    for right in range(left, 7):
+        print(f"[{right}|{left}] ")
+    print("\n")
+    
