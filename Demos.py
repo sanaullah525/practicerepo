@@ -1719,13 +1719,38 @@ except KeyError:
 """
 
 # Dictionaries can also be instantiated using dict() function.
-zoo= dict(pen1= 'zebras', pen2= 'penguins', pen3= 'lions')
-print(zoo['pen2'], "\n")
+zooo= dict(pen1= 'zebras', pen2= 'penguins', pen3= 'lions')
+print(zooo['pen2'], "\n")
 
 # Another way to create a dictionary using a dict() function.
 zoo= dict(
-    [['pen1', 'monkeys'], ['pen2', ''], ['pen3', 'elephants']
+    [['pen1','monkeys'], ['pen2','eagles'], ['pen3','elephants'], ['pen4','snakes']
      ]
 )
 
+# Dictionary methods.
+
+# .key() returns all keys in a dictionary.
+print(zoo.keys(), "\n")
+
+# .values() returns all values.
+print(zoo.keys(), "\n")
+
+# .items() returns all key value pairs.
+print(zoo.items(), "\n")
+
+# .get(key) Safe access (No erroe if missing)
+print(zoo.get("pen2"), "\n")
+
+# .pop(key) remove and return a value.
+print(zoo.pop('pen3'), "\n")
+print(zoo, "\n") #.pop(key) permanently removes a key and its value.
+
+# .update() merge another dict in
+zoo.update({'pen5':'insects'})
+print(zoo, "\n")
+
+# .clear() Remove all items
+zooo.clear()
+print(zooo)
 
