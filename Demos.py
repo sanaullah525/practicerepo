@@ -1791,3 +1791,6 @@ for name, age, position in team:
         new_team[position]= [(name, age)]
 print(new_team, "\n")
 
+# Examine the value at the 'point guard' key.
+print(new_team['point guard'])
+
