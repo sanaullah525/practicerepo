@@ -1792,5 +1792,9 @@ for name, age, position in team:
 print(new_team, "\n")
 
 # Examine the value at the 'point guard' key.
-print(new_team['point guard'])
+print(new_team['point guard'], "\n")
+
+# Dictionary keys can be accessed by looping over them.
+for x in new_team:
+    print(x)
 
