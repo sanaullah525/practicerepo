@@ -1700,7 +1700,7 @@ print(pips_from_loop == pips_from_list_comp, "\n")
 
 #############################################
 ###...Introduction_to_dictionaries...###
-
+"""
 # Creating a dictionary with pens as keys and the animals they contains as values.
 # Dictionaries can be instantiated using braces.
 
@@ -1710,10 +1710,22 @@ zoo= {
 print(zoo['pen2'], "\n")
 
 # You cannot access a dictionary's value by name using a bracket indexing
-# Because the computer interprets this as a key
+# Because the computer interprets this as a key.
 try:
     zoo['zebra']
 except KeyError:
     print("A dictionary's value cannot be accessed" \
-    " by name using a bracket indexing.")
+    " by name using a bracket indexing.\n")
+"""
+
+# Dictionaries can also be instantiated using dict() function.
+zoo= dict(pen1= 'zebras', pen2= 'penguins', pen3= 'lions')
+print(zoo['pen2'], "\n")
+
+# Another way to create a dictionary using a dict() function.
+zoo= dict(
+    [['pen1', 'monkeys'], ['pen2', ''], ['pen3', 'elephants']
+     ]
+)
+
 
