@@ -1752,5 +1752,20 @@ print(zoo, "\n")
 
 # .clear() Remove all items
 zooo.clear()
-print(zooo)
+print(zooo, "\n")
+
+# Assign a new key:value pair to an existing dictionary in python.
+zoo['pen6']= 'crocodiles'
+print(zoo, "\n")
+
+# Dictionaries were unordered before python 3.7.
+#  After python 3.7 dictionaries are ordered, But do not support numerical indexing.
+try:
+    print(zoo[2])
+except KeyError:
+    print("Dictionaries do not support numerical indexing...!!!\n")
+
+# Use the 'in' keyword to produce a Boolean of weather 
+# a given key exists in a dictionary.
+print('pen4' in zoo, "\n")
 
