@@ -1736,7 +1736,7 @@ print(zoo.keys(), "\n")
 # .values() returns all values.
 print(zoo.keys(), "\n")
 
-# .items() returns all key value pairs.
+# .items() returns all key-value pairs.
 print(zoo.items(), "\n")
 
 # .get(key) Safe access (No erroe if missing)
@@ -1789,12 +1789,20 @@ for name, age, position in team:
         new_team[position].append((name, age))
     else:
         new_team[position]= [(name, age)]
-print(new_team, "\n")
+print(new_team)
+print()
 
 # Examine the value at the 'point guard' key.
-print(new_team['point guard'], "\n")
+print(new_team['point guard'])
+print()
 
 # Dictionary keys can be accessed by looping over them.
 for x in new_team:
     print(x)
+print()
 
+print(new_team.keys())
+print()
+
+# .items() method returns both keys and values.
+print(new_team.items(), "\n")
