@@ -1859,3 +1859,53 @@ print(set_difference, "\n")     # {1,2}
 set_symmetric_difference= a ^ b
 print(set_symmetric_difference, "\n")     # {1,2,5,6}
 
+# The set() function converts a list to a set.
+x= set(['foo', 'bar', 'baz', 'foo'])
+print(x, "\n")      # {'baz', 'bar', 'foo'}     As sets contains unique elements.
+
+# The set() function converts a tuple to a set.
+x= set(('foo', 'bar', 'baz', 'foo'))
+print(x, "\n")      # {'foo', 'bar', 'baz'}
+
+# The set() function converts a string to a set.
+x= set('foo')
+print(x, "\n") # {'f','o'}  As 'oo' are duplicates in a string, so one 'o' is returned.
+
+# You can use braces to instantiate a set.
+x= {'foo'}
+print(type(x), "\n")    # <class 'set'>
+
+# But empty braces are reserved for dictionaries.
+y= {}
+print(type(y), "\n")     # <class 'dict'>
+
+# Instantiating a set with braces treats the contents as literals.
+x= {'foo'}
+print(x, "\n")      # {'foo'}
+
+# The intersection() method (&) returns common elements between two sets.
+set1 = {1, 2, 3, 4, 5, 6}
+set2 = {4, 5, 6, 7, 8, 9}
+print(set1.intersection(set2))    # {4,5,6}
+print(set1 & set2, "\n")        # {4,5,6}
+
+# The union() method (|) returns all the common elements from two sets, each represented once.
+x1= {'foo', 'bar', 'baz'}
+x2= {'baz', 'qux', 'quux'}
+print(x1.union(x2))       # {'quux', 'baz', 'bar', 'foo', 'qux'}
+print(x1 | x2, "\n")              # {'quux', 'baz', 'bar', 'foo', 'qux'}
+
+# The difference() method (-) returns all the elements in set1 that aren't in set2.
+print(set1.difference(set2))      # {1, 2, 3}
+print(set1 - set2, "\n")        # {1, 2, 3}
+
+# ... and the elements in set2 that aren't in set1.
+print(set2.difference(set1))    # {8, 9, 7}
+print(set2 - set1, "\n")    # {8, 9, 7}
+
+# The symmetric_difference() method (^) returns all the values from each set that
+# are not in both sets.
+print(set2.symmetric_difference(set1))
+print(set2 ^ set1, "\n")
+
+
