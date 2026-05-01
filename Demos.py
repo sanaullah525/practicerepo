@@ -1839,3 +1839,23 @@ print(9 in s), print()   # False
 # Checking the size of a set.
 print(len(s), "\n")   # 5
 
+# Set math (Real power of sets in python)
+a= {1,2,3,4}
+b= {3,4,5,6}
+
+# Union of two sets 'a', 'b'.
+set_union= a|b
+print(set_union, "\n")      # {1,2,3,4,5,6}
+
+# Intersection of two sets.
+set_intersection= a & b
+print(set_intersection, "\n")   # {3,4}
+
+# Difference of two sets.
+set_difference= a - b
+print(set_difference, "\n")     # {1,2}
+
+# Symmetric difference (Element in one but not both)
+set_symmetric_difference= a ^ b
+print(set_symmetric_difference, "\n")     # {1,2,5,6}
+
