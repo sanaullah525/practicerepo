@@ -1716,7 +1716,6 @@ try:
 except KeyError:
     print("A dictionary's value cannot be accessed" \
     " by name using a bracket indexing.\n")
-"""
 
 # Dictionaries can also be instantiated using dict() function.
 zooo= dict(pen1= 'zebras', pen2= 'penguins', pen3= 'lions')
@@ -1806,3 +1805,37 @@ print()
 
 # .items() method returns both keys and values.
 print(new_team.items(), "\n")
+"""
+
+
+#############################################
+###...Introduction_to_sets...###
+
+# Creating a set in python. '{}' and 'set()' constructor.
+
+fruits= {'apples', 'oranges', 'banana'}
+print(fruits)
+
+numbers= set([1,2,3,2,1])
+print(numbers, "\n")       #....Duplicates are automatically removesd.
+
+# An empty set (must use set(), not {} --> that creates a dictionary)
+empty= set()
+print(empty, "\n")
+
+
+# Common operations on sets.
+s= {1,2,3,4,5}
+
+s.add(6), print(s, "\n")      # {1,2,3,4,5,6}
+s.remove(3), print(s, "\n")   # {1,2,4,5,6}
+s.discard(10), print(s, "\n") # Safe version of remove(). No Errors.
+
+
+# Membership (Very fast -0(1))
+print(2 in s), print()   # True
+print(9 in s), print()   # False
+
+# Checking the size of a set.
+print(len(s), "\n")   # 5
+
