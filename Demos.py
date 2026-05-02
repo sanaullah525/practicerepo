@@ -1810,7 +1810,7 @@ print(new_team.items(), "\n")
 
 #############################################
 ###...Introduction_to_sets...###
-
+"""
 # Creating a set in python. '{}' and 'set()' constructor.
 
 fruits= {'apples', 'oranges', 'banana'}
@@ -1907,5 +1907,9 @@ print(set2 - set1, "\n")    # {8, 9, 7}
 # are not in both sets.
 print(set2.symmetric_difference(set1))
 print(set2 ^ set1, "\n")
+"""
 
+
+#############################################
+###...Introduction_to_NumPy...###
 
