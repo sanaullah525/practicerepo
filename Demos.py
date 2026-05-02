@@ -1920,5 +1920,12 @@ try:
     list_a * list_b
 except TypeError:
     print("Because lists can hold mixed types," \
-    " Python has no mathematical definition for multiplying lists.")
+    " Python has no mathematical definition for multiplying lists.\n")
+
+# To perform element-wise multiplication between two lists, you could
+# use a for loop.
+list_c= []
+for i in range(len(list_a)):
+    list_c.append(list_a[i] * list_b[i])
+print(list_c, "\n")
 
