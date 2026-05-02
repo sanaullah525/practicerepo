@@ -1913,3 +1913,12 @@ print(set2 ^ set1, "\n")
 #############################################
 ###...Introduction_to_NumPy...###
 
+# Lists cannot be multiplies together.
+list_a= [1,2,3]
+list_b= [2,4,6]
+try:
+    list_a * list_b
+except TypeError:
+    print("Because lists can hold mixed types," \
+    " Python has no mathematical definition for multiplying lists.")
+
