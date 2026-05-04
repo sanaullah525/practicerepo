@@ -1948,5 +1948,13 @@ print(x, "\n")
 try:
     x[4]= 10
 except IndexError:
-    print("The index does not exist!")
+    print("The index does not exist!","\n")
+
+# Arrays cast every element they contain as a same data type.
+arr= np.array([1, 2, 'coconut'])
+print(arr.dtype , "\n")
+print(type(arr[0]), "\n")   #..Get the type of indivisual element in python.
+        #..Since, NumPy uses its own dtype system not plain int, str, etc.
+        #..Every element is converted into a string.
+print(type(arr), "\n")     # NumPy converts the data type to string internally.
 
