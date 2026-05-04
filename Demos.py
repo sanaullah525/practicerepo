@@ -1964,3 +1964,5 @@ print(type(arr), "\n")
 arr= np.array([1, 2, 3])
 print(arr.shape, "\n") # 3, means: “This is a 1-dimensional array with 3 elements”
 
+# The ndim returns the number of dimensions in an array.
+print(arr.ndim, "\n")
