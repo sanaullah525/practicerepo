@@ -1944,3 +1944,9 @@ print(x, "\n")
 x[-1]= 5                  # Replaces last element of an array 'x' with 5.
 print(x, "\n")
 
+# Trying to access index that doesn't exist will through an error.
+try:
+    x[4]= 10
+except IndexError:
+    print("The index does not exist!")
+
