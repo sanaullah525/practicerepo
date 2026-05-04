@@ -1984,3 +1984,7 @@ print(arr_3d.shape, "\n")   # (2, 3, 3):--> 3 Numbers in tuple means array is 3D
         # and contains two blocks each block has 3 rows and 3 columns.
 print(arr_3d.size, "\n")  # 18: Prints the total number of elements in an array.
 
+# The reshape() method changes the shape of an array.
+arr_2d= arr_2d.reshape(2, 4)
+print(arr_2d.shape, "\n")   # (2, 4): means two rows and 4 columns in an array.
+
