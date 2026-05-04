@@ -1988,3 +1988,6 @@ print(arr_3d.size, "\n")  # 18: Prints the total number of elements in an array.
 arr_2d= arr_2d.reshape(2, 4)
 print(arr_2d.shape, "\n")   # (2, 4): means two rows and 4 columns in an array.
 
+# The mean() method returns the mean of the elements in an array.
+arr= np.array([1, 2, 3, 4, 5, 6])
+print(arr.mean(), "\n")     # 3.5 
