@@ -1959,3 +1959,8 @@ print(type(arr[0]), "\n")   #..Get the type of indivisual element in python.
 
 # NumPy arrays are a class called 'ndarray'.
 print(type(arr), "\n")
+
+# The shape attribute returns the data type of an array's contents.
+arr= np.array([1, 2, 3])
+print(arr.shape, "\n") # 3, means: “This is a 1-dimensional array with 3 elements”
+
