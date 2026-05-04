@@ -1966,3 +1966,10 @@ print(arr.shape, "\n") # 3, means: “This is a 1-dimensional array with 3 eleme
 
 # The ndim returns the number of dimensions in an array.
 print(arr.ndim, "\n")
+
+# Create a 2D array by passing a list of lists to np.array() function.
+arr_2d= np.array([[1,2], [3,4], [5,6], [7,8]])
+print(arr_2d.ndim) # 2 : Means that the array is two dimensional.
+print(arr_2d.shape, "\n")  #(4, 2)--> 2D array: Means the array has 4 rows and 2 columns.
+print(arr_2d, "\n")
+
