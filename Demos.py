@@ -1929,3 +1929,14 @@ for i in range(len(list_a)):
     list_c.append(list_a[i] * list_b[i])
 print(list_c, "\n")
 
+
+# NumPy arrays let you perform array operations.
+import numpy as np
+array_a= np.array(list_a)       # Convert lists to arrays.
+array_b= np.array(list_b)
+print(array_a * array_b, "\n")      # Perform element-wise multiplication between the arrays.
+
+# The np.array() function converts an object to an array.
+x= np.array([1,2,3,4])
+print(x, "\n")
+
