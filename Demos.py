@@ -1940,3 +1940,7 @@ print(array_a * array_b, "\n")      # Perform element-wise multiplication betwee
 x= np.array([1,2,3,4])
 print(x, "\n")
 
+# Arrays can be indexed.
+x[-1]= 5                  # Replaces last element of an array 'x' with 5.
+print(x, "\n")
+
