@@ -1973,3 +1973,14 @@ print(arr_2d.ndim) # 2 : Means that the array is two dimensional.
 print(arr_2d.shape, "\n")  #(4, 2)--> 2D array: Means the array has 4 rows and 2 columns.
 print(arr_2d, "\n")
 
+# Now creating a 3D array by passing a list of two lists of lists to np.array() function.
+arr_3d= np.array(
+    [[[1,2,3], [4,5,6], [7,8,9]],
+    [[10,11,12], [13,14,15], [16,17,18]]]
+)
+print(arr_3d, "\n")     # Prints arr_3d in the terminal.
+print(arr_3d.ndim, "\n")    # Prints the number of dimensions of the array.
+print(arr_3d.shape, "\n")   # (2, 3, 3):--> 3 Numbers in tuple means array is 3D, 
+        # and contains two blocks each block has 3 rows and 3 columns.
+print(arr_3d.size, "\n")  # 18: Prints the total number of elements in an array.
+
