@@ -1956,5 +1956,6 @@ print(arr.dtype , "\n")
 print(type(arr[0]), "\n")   #..Get the type of indivisual element in python.
         #..Since, NumPy uses its own dtype system not plain int, str, etc.
         #..Every element is converted into a string.
-print(type(arr), "\n")     # NumPy converts the data type to string internally.
 
+# NumPy arrays are a class called 'ndarray'.
+print(type(arr), "\n")
