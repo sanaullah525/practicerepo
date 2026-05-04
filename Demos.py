@@ -1991,3 +1991,13 @@ print(arr_2d.shape, "\n")   # (2, 4): means two rows and 4 columns in an array.
 # The mean() method returns the mean of the elements in an array.
 arr= np.array([1, 2, 3, 4, 5, 6])
 print(arr.mean(), "\n")     # 3.5 
+
+# The np.log() method returns the natural logarithm of the elements in an array.
+print(np.log(arr), "\n")
+
+# The floor method returns the value of a number rounded dowm to the nearist integer.
+print(np.floor(3.43), "\n")     # 3.0
+
+# The ceil() method returns the value of a number rounded up to the nearist integer.
+print(np.ceil(5.32), "\n")     # 6.0
+
