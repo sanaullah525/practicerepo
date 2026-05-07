@@ -2014,4 +2014,3 @@ print(np.floor(3.43), "\n")     # 3.0
 # The ceil() method returns the value of a number rounded up to the nearist integer.
 print(np.ceil(5.32), "\n")     # 6.0
 
-:
