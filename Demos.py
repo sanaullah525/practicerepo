@@ -1465,6 +1465,20 @@ print(zip_checker("9280"))
 print(zip_checker("0280"))
 print(zip_checker("00280"))
 """
+########################
+#  zip() method in python.
+"""
+names= ["Sanaullah", "Azaz", "Fawad", "Abbas"]
+scores= [87, 76, 90, 80]
+zipped= zip(names, scores)
+# print(zipped)       # We can't print a zip object.
+print(list(zipped), "\n")
+
+# Using for loop to process multiple lists at the same time.
+for name, score in zip(names, scores):
+    print(f"{name}: { score}")
+"""
+
 
 # def multi_line():
 #     return """First Line
@@ -1501,11 +1515,10 @@ url_checker('https://exampleURL1.com/r626c36')  # 'r626c36'
 # print(sport[-4: ], "\n")
 
 
-"""
 #############################################
 ###...Lists in python...###
-#############################################
 
+"""
 x= ["Now", "we", "are", "cooking", "with", 7, "ingredients"]
 # Print element at index 3 and 7.
 print(x[3], "\n")
@@ -2001,3 +2014,4 @@ print(np.floor(3.43), "\n")     # 3.0
 # The ceil() method returns the value of a number rounded up to the nearist integer.
 print(np.ceil(5.32), "\n")     # 6.0
 
+:
