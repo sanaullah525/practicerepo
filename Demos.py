@@ -1925,7 +1925,7 @@ print(set2 ^ set1, "\n")
 
 #############################################
 ###...Introduction_to_NumPy...###
-
+"""
 # Lists cannot be multiplies together.
 list_a= [1,2,3]
 list_b= [2,4,6]
@@ -2013,4 +2013,14 @@ print(np.floor(3.43), "\n")     # 3.0
 
 # The ceil() method returns the value of a number rounded up to the nearist integer.
 print(np.ceil(5.32), "\n")     # 6.0
+"""
 
+
+#############################################
+###...Introduction_to_Pandas...###
+import pandas as pd
+
+
+# Print current working directory.
+import os
+# print(os.getcwd())
