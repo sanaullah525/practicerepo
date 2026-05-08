@@ -2024,3 +2024,8 @@ import pandas as pd
 # Print current working directory.
 import os
 # print(os.getcwd())
+
+
+# Loading And Saving Data
+df= pd.read_csv(r'C:\Users\dell\Desktop\automobile_data.csv')
+print(df.head())
