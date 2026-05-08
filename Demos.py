@@ -2030,6 +2030,7 @@ import os
 df= pd.read_csv(r'C:\Users\dell\Desktop\automobile_data.csv')
 print(df.head())
 
+# Methods of reading data in other formats.
 """
 # Reading excel sheets.
 df= pd.read_excel()
