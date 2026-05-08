@@ -2029,3 +2029,18 @@ import os
 # Loading And Saving Data
 df= pd.read_csv(r'C:\Users\dell\Desktop\automobile_data.csv')
 print(df.head())
+
+"""
+# Reading excel sheets.
+df= pd.read_excel()
+
+# Reading JSON files.
+df= pd.read_json()
+
+# Saving data in csv format.
+df.to_csv("output.csv", index= False)
+
+# Saving data in excel format.
+df.to_excel("output.xlsx", index= False)
+"""
+
