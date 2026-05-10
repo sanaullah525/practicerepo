@@ -2045,12 +2045,12 @@ df.to_csv("output.csv", index= False)
 df.to_excel("output.xlsx", index= False)
 """
 # Peek at data
-print(df.head())
+print(df.head(), "\n")
 # First looking at the data.
-print(df.tail())
-print(df.shape)
-print(df.dtypes) # Data types of each column.
-
+print(df.tail(), "\n")
+print(df.shape, "\n")
+print(df.dtypes, "\n")     # Data types of each column.
+print(df.info(), "\n")     # Statistical information about the data.
 
 
 
