@@ -2016,6 +2016,7 @@ print(np.ceil(5.32), "\n")     # 6.0
 """
 
 
+
 #############################################
 ###...Introduction_to_Pandas...###
 import pandas as pd
@@ -2046,14 +2047,18 @@ df.to_excel("output.xlsx", index= False)
 # Peek at data
 print(df.head())
 
+
 # Pick multiple columns from data.
 dfm= df[["make", "num_of_doors", "num_of_cylinders", "horsepower", "city_mpg", "price"]]
-print(dfm)
+print(dfm, "\n")
 
 # Filter rows.
-print(dfm[dfm["price"] > 35000].sort_values(by="price", ascending=False))
+print(dfm[dfm["price"] > 35000].sort_values(by="price", ascending=False), "\n")
 
-# # Add a column.
-# dfm= dfm.sort_values(by= "price", ascending=False)
-# dfm["luxury_vehicles"]= dfm["price"] > 35000
-# print(dfm[["luxury_vehicles"], ["make"])
+# Add a column.
+dfm= dfm.sort_values(by= "price", ascending=False)
+dfm["luxury_vehicles"]= dfm["price"] > 35000
+
+print(dfm[(dfm["price"]>35000) & (dfm["luxury_vehicles"]== True)] \
+      [["make", "price"]].sort_values(by= "price", ascending= False), "\n")
+
