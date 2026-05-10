@@ -2044,4 +2044,6 @@ df.to_csv("output.csv", index= False)
 # Saving data in excel format.
 df.to_excel("output.xlsx", index= False)
 """
+# Peek at data
+print(df.head())
 
