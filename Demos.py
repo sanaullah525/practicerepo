@@ -2030,6 +2030,7 @@ import os
 # Loading And Saving Data
 df= pd.read_csv(r'C:\Users\dell\Desktop\automobile_data.csv')
 
+
 # Methods of reading data in other formats.
 """
 # Reading excel sheets.
@@ -2044,14 +2045,15 @@ df.to_csv("output.csv", index= False)
 # Saving data in excel format.
 df.to_excel("output.xlsx", index= False)
 """
+
 # Peek at data
 print(df.head(), "\n")
 # First looking at the data.
 print(df.tail(), "\n")
 print(df.shape, "\n")
 print(df.dtypes, "\n")     # Data types of each column.
-print(df.info(), "\n")     # Statistical information about the data.
-
+print(df.info(), "\n")     # Statistical information (Summary) about the data.
+print(df.describe(), "\n") # Stats: mean, min, max, std...
 
 
 """
