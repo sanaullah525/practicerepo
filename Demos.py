@@ -2053,3 +2053,7 @@ print(dfm)
 # Filter rows.
 print(dfm[dfm["price"] > 35000].sort_values(by="price", ascending=False))
 
+# # Add a column.
+# dfm= dfm.sort_values(by= "price", ascending=False)
+# dfm["luxury_vehicles"]= dfm["price"] > 35000
+# print(dfm[["luxury_vehicles"], ["make"])
