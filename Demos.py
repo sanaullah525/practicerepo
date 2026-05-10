@@ -2046,6 +2046,7 @@ df.to_csv("output.csv", index= False)
 df.to_excel("output.xlsx", index= False)
 """
 
+"""
 # Peek at data
 print(df.head(), "\n")
 # First looking at the data.
@@ -2054,9 +2055,8 @@ print(df.shape, "\n")
 print(df.dtypes, "\n")     # Data types of each column.
 print(df.info(), "\n")     # Statistical information (Summary) about the data.
 print(df.describe(), "\n") # Stats: mean, min, max, std...
-
-
 """
+
 # Pick multiple columns from data.
 dfm= df[["make", "num_of_doors", "num_of_cylinders", "horsepower", "city_mpg", "price"]]
 print(dfm, "\n")
@@ -2068,6 +2068,14 @@ print(dfm[dfm["price"] > 35000].sort_values(by="price", ascending=False), "\n")
 dfm= dfm.sort_values(by= "price", ascending=False)
 dfm["luxury_vehicles"]= dfm["price"] > 35000
 
+
+# Filtering rows.
+
 print(dfm[(dfm["price"]>35000) & (dfm["luxury_vehicles"]== True)] \
       [["make", "price"]].sort_values(by= "price", ascending= False), "\n")
-"""
+
+print(dfm[(dfm["luxury_vehicles"]== True)][["make", "price"]]\
+      .sort_values(by= "price", ascending= False), "\n")
+
+print(dfm[dfm["price"]> 35000][["make", "price"]], "\n")
+
