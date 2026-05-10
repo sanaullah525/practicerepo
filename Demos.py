@@ -2028,7 +2028,6 @@ import os
 
 # Loading And Saving Data
 df= pd.read_csv(r'C:\Users\dell\Desktop\automobile_data.csv')
-print(df.head())
 
 # Methods of reading data in other formats.
 """
@@ -2046,4 +2045,7 @@ df.to_excel("output.xlsx", index= False)
 """
 # Peek at data
 print(df.head())
+
+# Pick multiple columns from data.
+print(df[["make", "num_of_doors", "num_of_cylinders", "horsepower", "city_mpg", "price"]])
 
