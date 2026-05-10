@@ -2048,9 +2048,11 @@ df.to_excel("output.xlsx", index= False)
 print(df.head())
 # First looking at the data.
 print(df.tail())
-print(df.shape())
+print(df.shape)
 
 
+
+"""
 # Pick multiple columns from data.
 dfm= df[["make", "num_of_doors", "num_of_cylinders", "horsepower", "city_mpg", "price"]]
 print(dfm, "\n")
@@ -2064,4 +2066,4 @@ dfm["luxury_vehicles"]= dfm["price"] > 35000
 
 print(dfm[(dfm["price"]>35000) & (dfm["luxury_vehicles"]== True)] \
       [["make", "price"]].sort_values(by= "price", ascending= False), "\n")
-
+"""
