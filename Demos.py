@@ -2048,6 +2048,7 @@ df.to_excel("output.xlsx", index= False)
 print(df.head())
 # First looking at the data.
 print(df.tail())
+print(df.shape())
 
 
 # Pick multiple columns from data.
