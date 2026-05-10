@@ -2047,5 +2047,9 @@ df.to_excel("output.xlsx", index= False)
 print(df.head())
 
 # Pick multiple columns from data.
-print(df[["make", "num_of_doors", "num_of_cylinders", "horsepower", "city_mpg", "price"]])
+dfm= df[["make", "num_of_doors", "num_of_cylinders", "horsepower", "city_mpg", "price"]]
+print(dfm)
+
+# Filter rows.
+print(dfm[dfm["price"] > 30000])
 
