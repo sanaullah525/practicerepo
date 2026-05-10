@@ -2051,5 +2051,5 @@ dfm= df[["make", "num_of_doors", "num_of_cylinders", "horsepower", "city_mpg", "
 print(dfm)
 
 # Filter rows.
-print(dfm[dfm["price"] > 30000])
+print(dfm[dfm["price"] > 35000].sort_values(by="price", ascending=False))
 
