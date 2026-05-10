@@ -2049,6 +2049,8 @@ print(df.head())
 # First looking at the data.
 print(df.tail())
 print(df.shape)
+print(df.dtypes) # Data types of each column.
+
 
 
 
