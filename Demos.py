@@ -2094,4 +2094,5 @@ print(dfm["price"].max(), "\n")     # Calculate the maximum value contained in a
 print(dfm["price"].min(), "\n")     # Calculate the minimum value contained in a column.
 print(dfm["price"].std(), "\n")     # Calculate the standard deviation of the values in the Price column.
 print(dfm[(dfm["luxury_vehicles"])] \
-      .value_counts(), "\n")   # Calculate how many time each unique value appears.
+      .value_counts(), "\n")   # Calculate how many times each unique value appears.
+print(dfm.describe())       # Return the summary statistics of the dataframe.
