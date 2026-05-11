@@ -2095,4 +2095,7 @@ print(dfm["price"].min(), "\n")     # Calculate the minimum value contained in a
 print(dfm["price"].std(), "\n")     # Calculate the standard deviation of the values in the Price column.
 print(dfm[(dfm["luxury_vehicles"])] \
       .value_counts(), "\n")   # Calculate how many times each unique value appears.
-print(dfm.describe())       # Return the summary statistics of the dataframe.
+print(dfm.describe(), "\n")       # Return the summary statistics of the dataframe.
+# Using groupby() to calculate aggregations groupwise.
+luxury= dfm.groupby(["luxury_vehicles", "num_of_doors"]).agg({"price": ["count", "sum"]})
+print(luxury, "\n")
