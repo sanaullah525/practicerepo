@@ -2118,3 +2118,5 @@ print(arr, "\n")
 
 # Using pd.read_csv() function to create a dataframe from a .csv file from a URL or filepath.
 print(df, "\n")     # pd.read() was used while loading the data above.
+
+print(df.columns, "\n")     # The columns attribute returns an Index object containing the dataframe's columns.
