@@ -2061,8 +2061,6 @@ print(df.describe(), "\n") # Stats: mean, min, max, std...
 dfm= df[["make", "num_of_doors", "num_of_cylinders", "horsepower", "city_mpg", "price"]]
 print(dfm, "\n")
 
-# Filter rows.
-print(dfm[dfm["price"] > 35000].sort_values(by="price", ascending=False), "\n")
 
 # Add a column.
 dfm= dfm.sort_values(by= "price", ascending=False)
@@ -2070,12 +2068,12 @@ dfm["luxury_vehicles"]= dfm["price"] > 35000
 
 
 # Filtering rows.
-
+"""
 print(dfm[(dfm["price"]>35000) & (dfm["luxury_vehicles"]== True)] \
       [["make", "price"]].sort_values(by= "price", ascending= False), "\n")
-
 print(dfm[(dfm["luxury_vehicles"]== True)][["make", "price"]]\
       .sort_values(by= "price", ascending= False), "\n")
-
+"""
+print(dfm[dfm["price"] > 35000].sort_values(by="price", ascending=False), "\n")
 print(dfm[dfm["price"]> 35000][["make", "price"]], "\n")
 
