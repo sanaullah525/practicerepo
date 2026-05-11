@@ -2106,13 +2106,15 @@ import numpy as np
 
 # Use pd.DataFrame() function to create a dataframe from a dictionary.
 data = {'col1': [1, 2], 'col2': [3, 4]}
-df = pd.DataFrame(data=data)
-print(df, "\n")
+dicdf = pd.DataFrame(data=data)
+print(dicdf, "\n")
 
 # Use pd.DataFrame() to create a dataframe from an array.
 arr= np.array([[1,2,3], [4,5,6,], [7,8,9]]); cols= ['a', 'b', 'c']; index= ['x', 'y', 'z']
 arr= pd.DataFrame(arr,
                   columns= cols,
                     index= index)
-print(arr)
+print(arr, "\n")
 
+# Using pd.read_csv() function to create a dataframe from a .csv file from a URL or filepath.
+print(df, "\n")     # pd.read() was used while loading the data above.
