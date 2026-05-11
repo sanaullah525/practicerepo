@@ -2089,5 +2089,5 @@ print(df.iloc[2, 3], "\n")      # row 2, column 3.
 print(dfm.loc[0], "\n")        # row with index label 0
 print(dfm.loc[3, "make"], "\n")  # Specific cell
 
-# Print the first 25 rows of the data.
-print(dfm.head(25), '\n')
+print(dfm.head(25), '\n')       # Print the first 25 rows of the data.
+print(dfm["price"].mean())      # Calculate the mean of a column.
