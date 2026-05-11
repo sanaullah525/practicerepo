@@ -2093,3 +2093,4 @@ print(dfm.head(25), '\n')       # Print the first 25 rows of the data.
 print(dfm["price"].mean(), "\n")    # Calculate the mean of a column.
 print(dfm["price"].max(), "\n")     # Calculate the maximum value contained in a column.
 print(dfm["price"].min(), "\n")     # Calculate the minimum value contained in a column.
+print(dfm["price"].std(), "\n")     # Calculate the standard deviation of the values in the Price column.
