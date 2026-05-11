@@ -2046,7 +2046,6 @@ df.to_csv("output.csv", index= False)
 df.to_excel("output.xlsx", index= False)
 """
 
-"""
 # Peek at data
 print(df.head(), "\n")
 # First looking at the data.
@@ -2055,7 +2054,6 @@ print(df.shape, "\n")
 print(df.dtypes, "\n")     # Data types of each column.
 print(df.info(), "\n")     # Statistical information (Summary) about the data.
 print(df.describe(), "\n") # Stats: mean, min, max, std...
-"""
 
 # Pick multiple columns from data.
 dfm= df[["make", "num_of_doors", "num_of_cylinders", "horsepower", "city_mpg", "price"]]
@@ -2066,14 +2064,14 @@ print(dfm, "\n")
 dfm= dfm.sort_values(by= "price", ascending=False)
 dfm["luxury_vehicles"]= dfm["price"] > 35000
 
-
-# Filtering rows.
 """
+# Filtering rows.
+
 print(dfm[(dfm["price"]>35000) & (dfm["luxury_vehicles"]== True)] \
       [["make", "price"]].sort_values(by= "price", ascending= False), "\n")
 print(dfm[(dfm["luxury_vehicles"]== True)][["make", "price"]]\
       .sort_values(by= "price", ascending= False), "\n")
-"""
+
 print(dfm[dfm["price"] > 35000].sort_values(by="price", ascending=False), "\n")
 print(dfm[dfm["price"]> 35000][["make", "price"]], "\n")
 
@@ -2088,9 +2086,12 @@ print(dfm.iloc[0:5], "\n")      # First five rows.
 print(df.iloc[2, 3], "\n")      # row 2, column 3.
 print(dfm.loc[0], "\n")        # row with index label 0
 print(dfm.loc[3, "make"], "\n")  # Specific cell
+"""
 
 print(dfm.head(25), '\n')       # Print the first 25 rows of the data.
 print(dfm["price"].mean(), "\n")    # Calculate the mean of a column.
 print(dfm["price"].max(), "\n")     # Calculate the maximum value contained in a column.
 print(dfm["price"].min(), "\n")     # Calculate the minimum value contained in a column.
 print(dfm["price"].std(), "\n")     # Calculate the standard deviation of the values in the Price column.
+print(dfm[(dfm["luxury_vehicles"])] \
+      .value_counts(), "\n")   # Calculate how many time each unique value appears.
