@@ -2085,6 +2085,6 @@ print(dfm[["make", "price"]])       # Must use double square brackets for select
 # Rows by position (Like a list index)
 print(dfm.iloc[0], "\n")      # prints the first row.
 
-# First five rows.
-print(dfm.iloc[0:5], "\n")
-
+print(dfm.iloc[0:5], "\n")      # First five rows.
+print(df.iloc[2, 3], "\n")      # row 2, column 3.
+print(dfm.loc[0], "\n")        # row with index label 0
