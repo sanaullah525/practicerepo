@@ -2079,5 +2079,12 @@ print(dfm[dfm["price"]> 35000][["make", "price"]], "\n")
 
 
 # Selecting data.
-
 print(dfm[(dfm["luxury_vehicles"]== True)])     # Selecting only rows where luxury_vehicles == True.
+print(dfm[["make", "price"]])       # Must use double square brackets for selecting multiple columns.
+
+# Rows by position (Like a list index)
+print(dfm.iloc[0], "\n")      # prints the first row.
+
+# First five rows.
+print(dfm.iloc[0:5], "\n")
+
