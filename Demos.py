@@ -2088,3 +2088,4 @@ print(dfm.iloc[0], "\n")      # prints the first row.
 print(dfm.iloc[0:5], "\n")      # First five rows.
 print(df.iloc[2, 3], "\n")      # row 2, column 3.
 print(dfm.loc[0], "\n")        # row with index label 0
+print(dfm.loc[3, "make"], "\n")  # Specific cell
