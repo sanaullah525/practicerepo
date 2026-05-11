@@ -2122,5 +2122,7 @@ print(df, "\n")     # pd.read() was used while loading the data above.
 print(df.columns, "\n")     # The columns attribute returns an Index object containing the dataframe's columns.
 print(df.info(), "\n")      # The info method returns summary information about the dataframe.
 print(df.horsepower, "\n")  # A column can be selected by name using a dot notation,
-#    only when its name contains no spaces or special characters.
+# only when its name contains no spaces or special characters.
+print(df[["make", "num_of_doors", "city_mpg", "price"]])    # You can create a dataframe of specific columns 
+# using a list of column names inside brackets.
 
