@@ -2046,6 +2046,7 @@ df.to_csv("output.csv", index= False)
 df.to_excel("output.xlsx", index= False)
 """
 
+"""
 # Peek at data
 print(df.head(), "\n")
 # First looking at the data.
@@ -2064,9 +2065,7 @@ print(dfm, "\n")
 dfm= dfm.sort_values(by= "price", ascending=False)
 dfm["luxury_vehicles"]= dfm["price"] > 35000
 
-"""
 # Filtering rows.
-
 print(dfm[(dfm["price"]>35000) & (dfm["luxury_vehicles"]== True)] \
       [["make", "price"]].sort_values(by= "price", ascending= False), "\n")
 print(dfm[(dfm["luxury_vehicles"]== True)][["make", "price"]]\
@@ -2074,7 +2073,6 @@ print(dfm[(dfm["luxury_vehicles"]== True)][["make", "price"]]\
 
 print(dfm[dfm["price"] > 35000].sort_values(by="price", ascending=False), "\n")
 print(dfm[dfm["price"]> 35000][["make", "price"]], "\n")
-
 
 # Selecting data.
 print(dfm[(dfm["luxury_vehicles"]== True)])     # Selecting only rows where luxury_vehicles == True.
@@ -2086,7 +2084,6 @@ print(dfm.iloc[0:5], "\n")      # First five rows.
 print(df.iloc[2, 3], "\n")      # row 2, column 3.
 print(dfm.loc[0], "\n")        # row with index label 0
 print(dfm.loc[3, "make"], "\n")  # Specific cell
-"""
 
 print(dfm.head(25), '\n')       # Print the first 25 rows of the data.
 print(dfm["price"].mean(), "\n")    # Calculate the mean of a column.
@@ -2099,3 +2096,14 @@ print(dfm.describe(), "\n")       # Return the summary statistics of the datafra
 # Using groupby() to calculate aggregations groupwise.
 luxury= dfm.groupby(["luxury_vehicles", "num_of_doors"]).agg({"price": ["count", "sum"]})
 print(luxury, "\n")
+"""
+
+
+#############################################
+###...Pandas_Basics...###
+import pandas as pd
+
+# Use pd.DataFrame() function to create a dataframe from a dictionary.
+data = {'col1': [1, 2], 'col2': [3, 4]}
+df = pd.DataFrame(data=data)
+print(df, "\n")
