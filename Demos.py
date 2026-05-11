@@ -2077,3 +2077,7 @@ print(dfm[(dfm["luxury_vehicles"]== True)][["make", "price"]]\
 print(dfm[dfm["price"] > 35000].sort_values(by="price", ascending=False), "\n")
 print(dfm[dfm["price"]> 35000][["make", "price"]], "\n")
 
+
+# Selecting data.
+
+print(dfm[(dfm["luxury_vehicles"]== True)])     # Selecting only rows where luxury_vehicles == True.
