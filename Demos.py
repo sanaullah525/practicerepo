@@ -2144,5 +2144,9 @@ data= {
        'radius_km': [2440, 6052, 6371, 3390, 69911, 58232, 25362, 24622],
        'moons': [0, 0, 1, 2, 80, 83, 27, 14]       
        }
-print(data)
+print(data, "\n")
+
+# Using pd.DataFrame() function to convert dictionary to dataframe.
+planets= pd.DataFrame(data)
+print(planets, "\n")
 
