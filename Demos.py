@@ -2164,3 +2164,9 @@ moons_under_20
 # Creating a boolean mask of planets with fever than 20 OR more than 50 moons.
 msk= planets[(planets["moons"] < 20) | (planets["moons"] > 50)]
 print(msk, "\n")
+
+# Create a Boolean mask of planets with more than 20 moons, excluding them if they
+# have 80 moons or if their radius is less than 50,000 km.
+hardmsk= planets[(planets["moons"] > 20)&~(planets["moons"]== 80)\
+                 &~(planets["radius_km"]<50000)]
+print(hardmsk, "\n")
