@@ -2044,9 +2044,7 @@ df.to_csv("output.csv", index= False)
 
 # Saving data in excel format.
 df.to_excel("output.xlsx", index= False)
-"""
 
-"""
 # Peek at data
 print(df.head(), "\n")
 # First looking at the data.
@@ -2055,6 +2053,8 @@ print(df.shape, "\n")
 print(df.dtypes, "\n")     # Data types of each column.
 print(df.info(), "\n")     # Statistical information (Summary) about the data.
 print(df.describe(), "\n") # Stats: mean, min, max, std...
+
+"""
 
 # Pick multiple columns from data.
 dfm= df[["make", "num_of_doors", "num_of_cylinders", "horsepower", "city_mpg", "price"]]
@@ -2065,6 +2065,7 @@ print(dfm, "\n")
 dfm= dfm.sort_values(by= "price", ascending=False)
 dfm["luxury_vehicles"]= dfm["price"] > 35000
 
+"""
 # Filtering rows.
 print(dfm[(dfm["price"]>35000) & (dfm["luxury_vehicles"]== True)] \
       [["make", "price"]].sort_values(by= "price", ascending= False), "\n")
@@ -2123,6 +2124,7 @@ print(df.columns, "\n")     # The columns attribute returns an Index object cont
 print(df.info(), "\n")      # The info method returns summary information about the dataframe.
 print(df.horsepower, "\n")  # A column can be selected by name using a dot notation,
 # only when its name contains no spaces or special characters.
-print(df[["make", "num_of_doors", "city_mpg", "price"]])    # You can create a dataframe of specific columns 
+print(df[["make", "num_of_doors", "city_mpg", "price"]], "\n")    # You can create a dataframe of specific columns 
 # using a list of column names inside brackets.
+print(dfm.iloc[1], "\n")      # Use .iloc() to return a Series object of the data in row 0.
 
