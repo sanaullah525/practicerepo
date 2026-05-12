@@ -2104,7 +2104,7 @@ print(luxury, "\n")
 ###...Pandas_Basics...###
 import pandas as pd
 import numpy as np
-
+"""
 # Use pd.DataFrame() function to create a dataframe from a dictionary.
 data = {'col1': [1, 2], 'col2': [3, 4]}
 dicdf = pd.DataFrame(data=data)
@@ -2119,7 +2119,6 @@ print(arr, "\n")
 
 # Using pd.read_csv() function to create a dataframe from a .csv file from a URL or filepath.
 print(df, "\n")     # pd.read() was used while loading the data above.
-
 print(df.columns, "\n")     # The columns attribute returns an Index object containing the dataframe's columns.
 print(df.info(), "\n")      # The info method returns summary information about the dataframe.
 print(df.horsepower, "\n")  # A column can be selected by name using a dot notation,
@@ -2131,4 +2130,19 @@ print(dfm.iloc[0:3], "\n")  # Using .iloc() to return a DataFrame view of the da
 print(dfm.iloc[0:3, [3,4]], "\n") # Using .iloc() to return a DataFrame view of the data in rows 0,1,2 at colum 3 and 4.
 print(dfm.iloc[:, [3]], "\n")     # Using iloc to return a DataFrame of all rows at column 3.
 print(dfm.iloc[0, 3], "\n")     # Using iloc to access value at row 0, column 3.
-print(dfm.index.to_list())      # Assess the indecis of DataFrame in the form of a list.
+print(dfm.index.to_list(), "\n")      # Assess the indices of DataFrame in the form of a list.
+"""
+
+
+
+#############################################
+###...Boolean_masking...###
+
+# Instantiation of Planetry data.
+data= {
+       'planet': ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'],
+       'radius_km': [2440, 6052, 6371, 3390, 69911, 58232, 25362, 24622],
+       'moons': [0, 0, 1, 2, 80, 83, 27, 14]       
+       }
+print(data)
+
