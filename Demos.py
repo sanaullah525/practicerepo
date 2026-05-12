@@ -2137,7 +2137,7 @@ print(dfm.index.to_list(), "\n")      # Assess the indices of DataFrame in the f
 
 #############################################
 ###...Boolean_masking...###
-
+"""
 # Instantiation of Planetry data.
 data= {
        'planet': ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'],
@@ -2170,3 +2170,11 @@ print(msk, "\n")
 hardmsk= planets[(planets["moons"] > 20)&~(planets["moons"]== 80)\
                  &~(planets["radius_km"]<50000)]
 print(hardmsk, "\n")
+"""
+
+
+#############################################
+###...Grouping_and_aggregation...###
+
+import numpy as np
+import pandas as pd
