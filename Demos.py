@@ -2153,4 +2153,4 @@ print(planets, "\n")
 # Create a boolean mask of planets with fever than 20 moons.
 mask= planets["moons"] < 20
 print(mask, "\n")
-
+print(planets[mask], "\n")    # Applying the mask to the data.
