@@ -2150,3 +2150,7 @@ print(data, "\n")
 planets= pd.DataFrame(data)
 print(planets, "\n")
 
+# Create a boolean mask of planets with fever than 20 moons.
+mask= planets["moons"] < 20
+print(mask, "\n")
+
