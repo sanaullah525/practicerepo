@@ -2129,3 +2129,4 @@ print(df[["make", "num_of_doors", "city_mpg", "price"]], "\n")    # You can crea
 print(dfm.iloc[1], "\n")      # Use .iloc() to return a Series object of the data in row 0.
 print(dfm.iloc[0:3], "\n")  # Using .iloc() to return a DataFrame view of the data in rows 0,1,2
 print(dfm.iloc[0:3, [3,4]], "\n") # Using .iloc() to return a DataFrame view of the data in rows 0,1,2 at colum 3 and 4.
+print(dfm.iloc[:, [3]], "\n")     # Using iloc to return a DataFrame of all rows at column 3.
