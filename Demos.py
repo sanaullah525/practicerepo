@@ -2130,3 +2130,4 @@ print(dfm.iloc[1], "\n")      # Use .iloc() to return a Series object of the dat
 print(dfm.iloc[0:3], "\n")  # Using .iloc() to return a DataFrame view of the data in rows 0,1,2
 print(dfm.iloc[0:3, [3,4]], "\n") # Using .iloc() to return a DataFrame view of the data in rows 0,1,2 at colum 3 and 4.
 print(dfm.iloc[:, [3]], "\n")     # Using iloc to return a DataFrame of all rows at column 3.
+print(dfm.iloc[0, 3], "\n")     # Using iloc to access value at row 0, column 3.
