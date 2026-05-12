@@ -2155,3 +2155,8 @@ mask= planets["moons"] < 20
 print(mask, "\n")
 print(planets[mask], "\n")    # Applying the mask to the data. So that it only prints planets with fever than 20 moons.
 print(planets[planets["moons"] < 20], "\n")      # Define boolean mask and apply it in a single line.
+print(planets, "\n")    # Boolean mask don't change the data. They're just views.
+
+# We can assign a dataframe view to a named variable.
+moons_under_20= planets[mask]
+moons_under_20
