@@ -2206,5 +2206,7 @@ print(planetsdf.groupby(["type"]).sum(), "\n")
 # Apply sum() function to the groupby object and select only the 'moons' column.
 print(planetsdf.groupby(["type"]).sum()[['moons']], "\n")
 
-
+# Groupby type and magnetic_field and get the mean of the values
+#  in the numeric columns for each group.
+print(planetsdf.groupby(['type', 'magnetic_field']).mean(numeric_only= True), "\n")
 
