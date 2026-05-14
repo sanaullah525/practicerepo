@@ -2197,4 +2197,8 @@ planetsdf= pd.DataFrame(planetsdata)
 print(planetsdf, "\n")
 
 # groupby() funtion returns a groupby object.
-groupeddf= planetsdf.groupby(["rings"])
+planetsdf.groupby(["rings"])
+
+# Apply the sum() function to the groupby object 
+# to get the sum of the values in each numerical column for each group.
+print(planetsdf.groupby(["type"]).sum(), "\n")
