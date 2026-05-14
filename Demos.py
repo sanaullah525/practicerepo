@@ -2172,7 +2172,6 @@ hardmsk= planets[(planets["moons"] > 20)&~(planets["moons"]== 80)\
 print(hardmsk, "\n")
 """
 
-
 #############################################
 ###...Grouping_and_aggregation...###
 
@@ -2209,4 +2208,9 @@ print(planetsdf.groupby(["type"]).sum()[['moons']], "\n")
 # Groupby type and magnetic_field and get the mean of the values
 #  in the numeric columns for each group.
 print(planetsdf.groupby(['type', 'magnetic_field']).mean(numeric_only= True), "\n")
+
+# Group by type, then use the agg() function to get the mean and median of the
+# values in the numeric column for each group.
+print(planetsdf.groupby('type')[["radius_km", "mean_temp_c"]].agg(['mean', 'median']), "\n")
+
 
