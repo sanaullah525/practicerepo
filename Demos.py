@@ -2225,4 +2225,5 @@ def percentile_90(x):
 # Group by type and magnetic_field, then use the agg() function to apply the
 # mean and the custom-defined `percentile_90()` function to the numeric
 # columns for each group.
-planets.groupby(['type', 'magnetic_field']).agg(['mean', percentile_90])
+print(planetsdf.groupby(['type', 'magnetic_field'])[num_cols.columns].agg(['mean', percentile_90]))
+
