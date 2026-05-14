@@ -2236,6 +2236,9 @@ pdata = {
     "radius_km": [2440, 6052, 6371, 3390],
     "moons": [0, 0, 1, 2]
 }
-
 print(pdata, "\n")
-print(pdata)
+
+# Using pd.DataFrame() to convert the dictionary to a dataframe.
+pdf= pd.DataFrame(pdata)
+print(pdf, "\n")
+
