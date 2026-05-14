@@ -2192,4 +2192,9 @@ planetsdata= {
     'magnetic_field': ['yes', 'no', 'yes', 'no', 'yes', 'yes', 'yes', 'yes']
 }
 print(planetsdata, "\n")
-print(pd.DataFrame(planetsdata), "\n")
+
+planetsdf= pd.DataFrame(planetsdata)
+print(planetsdf, "\n")
+
+# groupby() funtion returns a groupby object.
+groupeddf= planetsdf.groupby(["rings"])
