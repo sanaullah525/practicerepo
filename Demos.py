@@ -2214,3 +2214,8 @@ print(planetsdf.groupby(['type', 'magnetic_field']).mean(numeric_only= True), "\
 print(planetsdf.groupby('type')[["radius_km", "mean_temp_c"]].agg(['mean', 'median']), "\n")
 
 
+# Group by type and magnetic_field, then use the agg() function to get the
+# mean and max of the values in the numeric columns for each group.
+num_cols= planetsdf.select_dtypes(include= 'number')
+print(planetsdf.groupby(["type", "magnetic_field"])[num_cols.columns].agg(['mean', 'max']))
+
