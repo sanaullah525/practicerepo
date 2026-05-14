@@ -2026,13 +2026,13 @@ import pandas as pd
 import os
 # print(os.getcwd())
 
-
+r"""
 # Loading And Saving Data
 df= pd.read_csv(r'C:\Users\dell\Desktop\automobile_data.csv')
 
 
 # Methods of reading data in other formats.
-"""
+
 # Reading excel sheets.
 df= pd.read_excel()
 
@@ -2054,18 +2054,14 @@ print(df.dtypes, "\n")     # Data types of each column.
 print(df.info(), "\n")     # Statistical information (Summary) about the data.
 print(df.describe(), "\n") # Stats: mean, min, max, std...
 
-"""
-
 # Pick multiple columns from data.
 dfm= df[["make", "num_of_doors", "num_of_cylinders", "horsepower", "city_mpg", "price"]]
 print(dfm, "\n")
-
 
 # Add a column.
 dfm= dfm.sort_values(by= "price", ascending=False)
 dfm["luxury_vehicles"]= dfm["price"] > 35000
 
-"""
 # Filtering rows.
 print(dfm[(dfm["price"]>35000) & (dfm["luxury_vehicles"]== True)] \
       [["make", "price"]].sort_values(by= "price", ascending= False), "\n")
@@ -2172,12 +2168,12 @@ hardmsk= planets[(planets["moons"] > 20)&~(planets["moons"]== 80)\
 print(hardmsk, "\n")
 """
 
+
 #############################################
 ###...Grouping_and_aggregation...###
-
+"""
 import numpy as np
 import pandas as pd
-
 
 # Instantiate a dictionary of planetry data.
 planetsdata= {
@@ -2226,4 +2222,20 @@ def percentile_90(x):
 # mean and the custom-defined `percentile_90()` function to the numeric
 # columns for each group.
 print(planetsdf.groupby(['type', 'magnetic_field'])[num_cols.columns].agg(['mean', percentile_90]))
+"""
 
+#############################################
+###...Merging_and_joining_data...###
+
+import numpy as np
+import pandas as pd
+
+# Instantiation of a dictionary of planetry data.
+pdata = {
+    "planet": ["Mercury", "Venus", "Earth", "Mars"],
+    "radius_km": [2440, 6052, 6371, 3390],
+    "moons": [0, 0, 1, 2]
+}
+
+print(pdata, "\n")
+print(pdata)
