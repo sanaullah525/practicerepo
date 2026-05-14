@@ -2202,3 +2202,9 @@ planetsdf.groupby(["rings"])
 # Apply the sum() function to the groupby object 
 # to get the sum of the values in each numerical column for each group.
 print(planetsdf.groupby(["type"]).sum(), "\n")
+
+# Apply sum() function to the groupby object and select only the 'moons' column.
+print(planetsdf.groupby(["type"]).sum()[['moons']], "\n")
+
+
+
