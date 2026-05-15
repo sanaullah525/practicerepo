@@ -2266,7 +2266,7 @@ print(df3, "\n")
 
 # NOTE: THIS CELL WAS NOT SHOWN IN THE INSTRUCTIONAL VIDEO BUT WAS RUN AS A
 #       SETUP CELL.
-data = {'planet': ['Earth', 'Mars','Jupiter', 'Saturn', 'Uranus',
+longdata = {'planet': ['Earth', 'Mars','Jupiter', 'Saturn', 'Uranus',
                    'Neptune', 'Janssen', 'Tadmor'],
         'type': ['terrestrial', 'terrestrial','gas giant', 'gas giant',
                  'ice giant', 'ice giant', 'super earth','gas giant'],
@@ -2275,4 +2275,5 @@ data = {'planet': ['Earth', 'Mars','Jupiter', 'Saturn', 'Uranus',
         'magnetic_field': ['yes', 'no', 'yes', 'yes', 'yes', 'yes', None, None],
         'life': [1, 0, 0, 0, 0, 0, 1, 1]
         }
-df4 = pd.DataFrame(data)
+df4 = pd.DataFrame(longdata)
+print(df4, "\n")
