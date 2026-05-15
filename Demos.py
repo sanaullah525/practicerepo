@@ -2288,3 +2288,8 @@ print(inner, "\n")
 left= pd.merge(df3, df4, on='planet', how= 'left')
 print(left, "\n")
 
+# Using pd.merge() to combine dataframes.
+# Right merge retains only keys that appear in the right dataframe.
+right= pd.merge(df3, df4, on='planet', how='left')
+print(right, "\n")
+
