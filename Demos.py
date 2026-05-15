@@ -2254,3 +2254,7 @@ data = {'planet': ['Jupiter', 'Saturn', 'Uranus', 'Neptune'],
 df2 = pd.DataFrame(data)
 print(df2, "\n")
 
+# The pd.concat() function can combine the two dataframes along axis 0,
+# with the second dataframe being added as new rows to the first dataframe.
+df3 = pd.concat([df1, df2], axis=0)
+print(df3, "\n")
