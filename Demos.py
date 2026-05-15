@@ -2277,3 +2277,10 @@ longdata = {'planet': ['Earth', 'Mars','Jupiter', 'Saturn', 'Uranus',
         }
 df4 = pd.DataFrame(longdata)
 print(df4, "\n")
+
+
+# Use pd.merge() to combine dataframes.
+# Inner merge retains only keys that appear in both dataframes.
+inner= pd.merge(df3, df4, on='planet', how= 'inner')
+print(inner, "\n")
+
