@@ -2228,7 +2228,7 @@ print(planetsdf.groupby(['type', 'magnetic_field'])[num_cols.columns].agg(['mean
 
 #############################################
 ###...Merging_and_joining_data...###
-
+"""
 import numpy as np
 import pandas as pd
 
@@ -2243,7 +2243,6 @@ print(pdata, "\n")
 # Using pd.DataFrame() to convert the dictionary to a dataframe.
 df1= pd.DataFrame(pdata)
 print(df1, "\n")
-
 
 # Instantiate a dictionary of planetary data.
 data = {'planet': ['Jupiter', 'Saturn', 'Uranus', 'Neptune'],
@@ -2262,7 +2261,6 @@ print(df3, "\n")
 # Reset the row indices.
 df3 = df3.reset_index(drop=True)
 print(df3, "\n")
-
 
 # NOTE: THIS CELL WAS NOT SHOWN IN THE INSTRUCTIONAL VIDEO BUT WAS RUN AS A
 #       SETUP CELL.
@@ -2292,4 +2290,5 @@ print(left, "\n")
 # Right merge retains only keys that appear in the right dataframe.
 right= pd.merge(df3, df4, on='planet', how='left')
 print(right, "\n")
+"""
 
