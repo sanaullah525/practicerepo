@@ -2224,6 +2224,8 @@ def percentile_90(x):
 print(planetsdf.groupby(['type', 'magnetic_field'])[num_cols.columns].agg(['mean', percentile_90]))
 """
 
+
+
 #############################################
 ###...Merging_and_joining_data...###
 
@@ -2239,6 +2241,7 @@ pdata = {
 print(pdata, "\n")
 
 # Using pd.DataFrame() to convert the dictionary to a dataframe.
-pdf= pd.DataFrame(pdata)
-print(pdf, "\n")
+df1= pd.DataFrame(pdata)
+print(df1, "\n")
+
 
