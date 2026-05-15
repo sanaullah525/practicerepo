@@ -2258,3 +2258,7 @@ print(df2, "\n")
 # with the second dataframe being added as new rows to the first dataframe.
 df3 = pd.concat([df1, df2], axis=0)
 print(df3, "\n")
+
+# Reset the row indices.
+df3 = df3.reset_index(drop=True)
+print(df3, "\n")
