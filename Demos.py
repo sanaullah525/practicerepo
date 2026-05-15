@@ -2245,3 +2245,12 @@ df1= pd.DataFrame(pdata)
 print(df1, "\n")
 
 
+# Instantiate a dictionary of planetary data.
+data = {'planet': ['Jupiter', 'Saturn', 'Uranus', 'Neptune'],
+        'radius_km': [69911, 58232, 25362, 24622],
+        'moons': [80, 83, 27, 14],
+        }
+
+# Use pd.DataFrame() function to convert dictionary to dataframe.
+df2 = pd.DataFrame(data)
+df2
