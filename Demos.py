@@ -2262,3 +2262,17 @@ print(df3, "\n")
 # Reset the row indices.
 df3 = df3.reset_index(drop=True)
 print(df3, "\n")
+
+
+# NOTE: THIS CELL WAS NOT SHOWN IN THE INSTRUCTIONAL VIDEO BUT WAS RUN AS A
+#       SETUP CELL.
+data = {'planet': ['Earth', 'Mars','Jupiter', 'Saturn', 'Uranus',
+                   'Neptune', 'Janssen', 'Tadmor'],
+        'type': ['terrestrial', 'terrestrial','gas giant', 'gas giant',
+                 'ice giant', 'ice giant', 'super earth','gas giant'],
+        'rings': ['no', 'no', 'yes', 'yes', 'yes','yes', 'no', None],
+        'mean_temp_c': [15, -65, -110, -140, -195, -200, None, None],
+        'magnetic_field': ['yes', 'no', 'yes', 'yes', 'yes', 'yes', None, None],
+        'life': [1, 0, 0, 0, 0, 0, 1, 1]
+        }
+df4 = pd.DataFrame(data)
