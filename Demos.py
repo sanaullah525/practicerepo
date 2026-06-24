@@ -2323,6 +2323,11 @@ print(eggs)
 def spam(divideBy):
     return 42 / divideBy
 print(spam(2))
-print(spam(12))
-print(spam(0))
+print(spam(12), "\n")
+
+try:
+    print(spam(0))
+except ZeroDivisionError:
+    print("Invalid Argument. Cannot divide by zero.\n")
 print(spam(1))
+
