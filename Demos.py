@@ -2293,3 +2293,4 @@ print(right, "\n")
 """
 
 
+# Local and global variables.
