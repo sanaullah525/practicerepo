@@ -2316,7 +2316,6 @@ def ham():
 eggs= 42
 spam()
 print(eggs)
-"""
 
 
 # Exception Handling in python.
@@ -2330,4 +2329,6 @@ try:
 except ZeroDivisionError:
     print("Invalid Argument. Cannot divide by zero.\n")
 print(spam(1))
+"""
+
 
