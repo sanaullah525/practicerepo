@@ -2294,3 +2294,12 @@ print(right, "\n")
 
 
 # Local and global variables.
+# The global statement.
+
+def spam():
+    global eggs
+    eggs= 'spam'
+
+eggs= 'global'
+spam()
+print(eggs)
