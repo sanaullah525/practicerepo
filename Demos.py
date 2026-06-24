@@ -2290,7 +2290,6 @@ print(left, "\n")
 # Right merge retains only keys that appear in the right dataframe.
 right= pd.merge(df3, df4, on='planet', how='left')
 print(right, "\n")
-"""
 
 
 # Local and global variables.
@@ -2302,4 +2301,19 @@ def spam():
 
 eggs= 'global'
 spam()
+print(eggs, "\n")
+"""
+
+
+# Global statement inside the function in python.
+def spam():
+    global eggs
+    eggs= 'spam'
+def bacon():
+    eggs= 'bacon'
+def ham():
+    print(eggs)
+eggs= 42
+spam()
 print(eggs)
+
