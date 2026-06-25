@@ -2317,18 +2317,30 @@ eggs= 42
 spam()
 print(eggs)
 
-
 # Exception Handling in python.
 def spam(divideBy):
     return 42 / divideBy
 print(spam(2))
 print(spam(12), "\n")
-
 try:
     print(spam(0))
 except ZeroDivisionError:
     print("Invalid Argument. Cannot divide by zero.\n")
 print(spam(1))
 """
+
+#...Properties of code execution in python. Code never comes back to try clause 
+# once it jumps on except clause.
+
+def spam(divideBy):
+    return 42/divideBy
+
+try:
+    print(spam(2))
+    print(spam(12))
+    print(spam(0))
+    print(spam(1))          # This is not executed, because once execution jumps to the except clause, it never returns back to try clause.
+except ZeroDivisionError:
+    print("Error: Invalid argument.")
 
 
