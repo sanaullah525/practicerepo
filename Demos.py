@@ -2327,7 +2327,6 @@ try:
 except ZeroDivisionError:
     print("Invalid Argument. Cannot divide by zero.\n")
 print(spam(1))
-"""
 
 #...Properties of code execution in python. Code never comes back to try clause 
 # once it jumps on except clause.
@@ -2342,5 +2341,35 @@ try:
     print(spam(1))          # This is not executed, because once execution jumps to the except clause, it never returns back to try clause.
 except ZeroDivisionError:
     print("Error: Invalid argument.")
+"""
 
+"""
+#...Python Numberguessing game.
+import random
+
+secretNumber= random.randint(1, 20)
+print("I am thinking of a Number between 1 and 20.\n")
+try:        
+    for guessTaken in range(1, 7):
+        print("Take a guess: ")
+        guess= int(input())
+
+        if (guess < 1) or (guess > 21):
+            print("Your guess is out of range.\n")
+        elif guess < secretNumber:
+            print("Your guess is too low.\n")
+        elif guess > secretNumber:
+            print("Your guess is too high.\n")
+        else:
+            break
+    if guess == secretNumber:
+        if guessTaken == 1:
+            print("Good job! You guessed my number on your First guess!\n")
+        else:
+            print("Good job! You guessed my number in "+str(guessTaken)+" guesses!\n")
+    else:
+        print("Sorry, you ran out of guesses. The number was " + str(secretNumber) + ".\n")
+except ValueError:
+    print("Invalid input!\n")
+"""
 
