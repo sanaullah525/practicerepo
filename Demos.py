@@ -2392,3 +2392,6 @@ try:
     number= int(input())
 except ValueError:
     print("Invalid input!\n")
+
+while number != 1:
+    number= collatz(number)
