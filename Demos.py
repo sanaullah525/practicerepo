@@ -2381,3 +2381,14 @@ def collatz(number):
     if not isinstance(number, int):
         raise TypeError("The input must be an integer!")
     if number % 2 == 0:
+        print(number // 2)
+        return number // 2
+    else:
+        print(number * 3) + 1
+        return((number * 3 ) + 1 )
+    
+print("Enter a Number to find its Collatz Sequence: ")
+try:
+    number= int(input())
+except ValueError:
+    print("Invalid input!\n")
