@@ -2373,3 +2373,6 @@ except ValueError:
     print("Invalid input!\n")
 """
 
+# Collatz function.
+
+def collatz_length_iterative(n):
