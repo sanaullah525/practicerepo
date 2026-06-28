@@ -2375,4 +2375,4 @@ except ValueError:
 
 # Collatz function.
 
-def collatz_length_iterative(n):
+def collatz(number):
