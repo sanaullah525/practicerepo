@@ -2380,3 +2380,4 @@ except ValueError:
 def collatz(number):
     if not isinstance(number, int):
         raise TypeError("The input must be an integer!")
+    if number % 2 == 0:
