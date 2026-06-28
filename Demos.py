@@ -2373,6 +2373,10 @@ except ValueError:
     print("Invalid input!\n")
 """
 
+
+
 # Collatz function.
 
 def collatz(number):
+    if not isinstance(number, int):
+        raise TypeError("The input must be an integer!")
