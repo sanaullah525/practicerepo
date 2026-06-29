@@ -2373,7 +2373,7 @@ except ValueError:
     print("Invalid input!\n")
 """
 
-"""
+
 # Collatz function.
 
 def collatz(number):
@@ -2383,7 +2383,7 @@ def collatz(number):
         print(number // 2)
         return number // 2
     else:
-        print(number * 3) + 1
+        print((number * 3) + 1)
         return((number * 3 ) + 1 )
 print("Enter a Number to find its Collatz Sequence: ")
 try:
@@ -2392,4 +2392,4 @@ except ValueError:
     print("Invalid input!\n")
 while number != 1:
     number= collatz(number)
-"""
+
