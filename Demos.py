@@ -2375,6 +2375,7 @@ except ValueError:
 
 
 # Collatz function.
+import sys
 
 def collatz(number):
     if not isinstance(number, int):
@@ -2385,11 +2386,13 @@ def collatz(number):
     else:
         print((number * 3) + 1)
         return((number * 3 ) + 1 )
+
 print("Enter a Number to find its Collatz Sequence: ")
 try:
-    number= int(input())
+    user_input= int(input())
 except ValueError:
     print("Invalid input!\n")
-while number != 1:
-    number= collatz(number)
+    sys.exit()
+while user_input != 1:
+    user_input= collatz(user_input)
 
