@@ -2373,7 +2373,7 @@ except ValueError:
     print("Invalid input!\n")
 """
 
-
+"""
 # Collatz function.
 import sys
 
@@ -2395,4 +2395,6 @@ except ValueError:
     sys.exit()
 while user_input != 1:
     user_input= collatz(user_input)
+"""
+
 
