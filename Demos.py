@@ -2406,4 +2406,6 @@ list= [1,2,3, "Hello"]
 print(list, "\n")
 
 
-
+# Getting individual values with indexes.
+spam= ["rat", "cat", "bat", "elephant"]
+print(spam, "\n")
