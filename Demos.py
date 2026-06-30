@@ -2402,3 +2402,8 @@ while user_input != 1:
 #############################################
 ###...The List Data Type...###
 
+list= [1,2,3, "Hello"]
+print(list, "\n")
+
+
+
