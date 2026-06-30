@@ -2409,3 +2409,9 @@ print(list, "\n")
 # Getting individual values with indexes.
 spam= ["rat", "cat", "bat", "elephant"]
 print(spam, "\n")
+
+print(spam[1], "\n")
+
+# Operations on strings in python.
+print("hello " + spam[1], "\n")
+
