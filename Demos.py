@@ -2416,3 +2416,4 @@ print(spam[1], "\n")
 print("hello " + spam[1], "\n")
 
 print(f"The {spam[1]} ate the {spam[0]}.", "\n")
+
