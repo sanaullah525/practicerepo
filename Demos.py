@@ -2441,3 +2441,5 @@ print(spam[0:], "\n")
 print(spam[1:], "\n")
 print(spam[:-2], "\n")
 print(spam[::-1], "\n")  #...Reversing the sequence.
+print(spam[:],"\n")
+
