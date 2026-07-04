@@ -2445,3 +2445,6 @@ print(spam[::-1], "\n")
 print("Getting all the list using ':' in python.")
 print(spam[:],"\n")
 
+# len() function.
+spam= ['cat', 'bat', 'rat', 'elephant']
+print(len(spam), "\n")
