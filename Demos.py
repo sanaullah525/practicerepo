@@ -2429,4 +2429,6 @@ print(f"The {spam[-1]} is afraid of the {spam[-3]}.", "\n")
 # Getting sublists with slices.
 spam = ['cat', 'bat', 'rat', 'elephant']
 print(spam[0:4], "\n")
+print(spam[1:3], "\n")
+print(spam[0:-1], "\n")
 
