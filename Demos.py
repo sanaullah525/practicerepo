@@ -2419,3 +2419,6 @@ print(f"The {spam[1]} ate the {spam[0]}.", "\n")
 
 
 # Negative indexes in python.
+spam = ['cat', 'bat', 'rat', 'elephant']
+print(spam, "\n")
+print(spam[-1], "\n")     #... -1 is the index for first position from the right side.
