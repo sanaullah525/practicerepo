@@ -2397,9 +2397,8 @@ while user_input != 1:
     user_input= collatz(user_input)
 """
 
-
-
-#############################################
+'''
+############################################
 ###...The List Data Type...###
 
 list= [1,2,3, "Hello"]
@@ -2416,4 +2415,7 @@ print(spam[1], "\n")
 print("hello " + spam[1], "\n")
 
 print(f"The {spam[1]} ate the {spam[0]}.", "\n")
+'''
 
+
+# Negative indexes in python.
