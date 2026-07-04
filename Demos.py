@@ -2418,11 +2418,15 @@ print("hello " + spam[1], "\n")
 print(f"The {spam[1]} ate the {spam[0]}.", "\n")
 '''
 
-
+'''
 # Negative indexes in python.
 spam = ['cat', 'bat', 'rat', 'elephant']
 print(spam, "\n")
 print(spam[-1], "\n")     #... -1 is the index for first position from the right side.
-print(f"The {spam[-1]} is afraid of the {spam[-3]}.")
+print(f"The {spam[-1]} is afraid of the {spam[-3]}.", "\n")
+'''
 
 # Getting sublists with slices.
+spam = ['cat', 'bat', 'rat', 'elephant']
+print(spam[0:4], "\n")
+
