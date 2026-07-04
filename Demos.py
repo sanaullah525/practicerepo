@@ -2438,3 +2438,5 @@ print(spam[0:-1], "\n")
 #...Sublists shortcut in python.
 spam= ['cat', 'bat', 'rat', 'elephant']
 print(spam[0:], "\n")
+print(spam[1:], "\n")
+print(spam[:-2], "\n")
