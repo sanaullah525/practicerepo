@@ -2422,3 +2422,5 @@ print(f"The {spam[1]} ate the {spam[0]}.", "\n")
 spam = ['cat', 'bat', 'rat', 'elephant']
 print(spam, "\n")
 print(spam[-1], "\n")     #... -1 is the index for first position from the right side.
+print(f"The {spam[-1]} is afraid of the {spam[-3]}.")
+
