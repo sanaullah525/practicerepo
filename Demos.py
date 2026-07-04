@@ -2426,9 +2426,14 @@ print(spam[-1], "\n")     #... -1 is the index for first position from the right
 print(f"The {spam[-1]} is afraid of the {spam[-3]}.", "\n")
 '''
 
-# Getting sublists with slices.
+
+'''
+#...Getting sublists with slices.
 spam = ['cat', 'bat', 'rat', 'elephant']
 print(spam[0:4], "\n")
 print(spam[1:3], "\n")
 print(spam[0:-1], "\n")
+'''
 
+#...Sublists shortcut in python.
+spam= ['cat', 'bat', 'rat', 'elephant']
