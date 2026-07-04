@@ -2397,6 +2397,7 @@ while user_input != 1:
     user_input= collatz(user_input)
 """
 
+
 '''
 ############################################
 ###...The List Data Type...###
@@ -2424,3 +2425,4 @@ print(spam, "\n")
 print(spam[-1], "\n")     #... -1 is the index for first position from the right side.
 print(f"The {spam[-1]} is afraid of the {spam[-3]}.")
 
+# Getting sublists with slices.
