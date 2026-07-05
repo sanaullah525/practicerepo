@@ -2444,7 +2444,6 @@ print("Reversing the sequence.")
 print(spam[::-1], "\n")
 print("Getting all the list using ':' in python.")
 print(spam[:],"\n")
-'''
 
 # len() function.
 spam= ['cat', 'bat', 'rat', 'elephant']
@@ -2462,10 +2461,13 @@ print(spam, "\n")
 
 spam[-1]= '1235'
 print(spam, "\n")
-
+'''
 
 #   List concatenation and list replication.
 print([1,2,3] + ['A', 'B', 'C'], "\n")
 
 print(['X', 'Y', 'Z'] * 3, "\n")
+
+spam= [1,2,3]
+print(spam + ['A', 'B', 'C'], "\n")
 
