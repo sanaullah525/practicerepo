@@ -2460,3 +2460,6 @@ print(spam, "\n")
 spam[3]= spam[1]
 print(spam, "\n")
 
+spam[-1]= '1235'
+print(spam, "\n")
+
