@@ -2433,7 +2433,7 @@ spam = ['cat', 'bat', 'rat', 'elephant']
 print(spam[0:4], "\n")
 print(spam[1:3], "\n")
 print(spam[0:-1], "\n")
-'''
+
 
 #...Sublists shortcut in python.
 spam= ['cat', 'bat', 'rat', 'elephant']
@@ -2444,7 +2444,12 @@ print("Reversing the sequence.")
 print(spam[::-1], "\n")
 print("Getting all the list using ':' in python.")
 print(spam[:],"\n")
+'''
 
 # len() function.
 spam= ['cat', 'bat', 'rat', 'elephant']
 print(len(spam), "\n")
+
+#...Changing values in a list with indexes.
+spam[1]= 'mangoose'
+print(spam, "\n")
