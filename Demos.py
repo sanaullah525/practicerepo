@@ -2457,3 +2457,6 @@ print(spam, "\n")
 spam[1]= "NoCat"
 print(spam, "\n")
 
+spam[3]= spam[1]
+print(spam, "\n")
+
