@@ -2453,3 +2453,7 @@ print(len(spam), "\n")
 #...Changing values in a list with indexes.
 spam[1]= 'mangoose'
 print(spam, "\n")
+
+spam[1]= "NoCat"
+print(spam, "\n")
+
