@@ -2463,3 +2463,6 @@ print(spam, "\n")
 spam[-1]= '1235'
 print(spam, "\n")
 
+
+#   List concatenation and list replication.
+print([1,2,3] + ['A', 'B', 'C'], "\n")
