@@ -2471,3 +2471,8 @@ print(['X', 'Y', 'Z'] * 3, "\n")
 spam= [1,2,3]
 print(spam + ['A', 'B', 'C'], "\n")
 
+#   Removing values from lists using del statements.
+spam= ['cat', 'bat', 'rat', 'mangoose']
+del spam[-1]
+print(spam, "\n")
+
