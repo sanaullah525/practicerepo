@@ -2466,3 +2466,6 @@ print(spam, "\n")
 
 #   List concatenation and list replication.
 print([1,2,3] + ['A', 'B', 'C'], "\n")
+
+print(['X', 'Y', 'Z'] * 3, "\n")
+
