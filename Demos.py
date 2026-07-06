@@ -2497,8 +2497,6 @@ while True:
 print("The cat names are: ")
 for name in catNames:
     print(' ' + name)
-'''
-
 
 # Using for loops with lists.
 for i in range(9):
@@ -2522,4 +2520,8 @@ for i, item in enumerate(supplies, start= 1):
     print(f"Index {i} in supplies is {item}: ")
 
 print("\n")
+'''
+
+
+#   The in and not in operators.
 
