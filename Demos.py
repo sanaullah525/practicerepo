@@ -2526,3 +2526,10 @@ print("\n")
 #   The in and not in operators.
 
 print("howdy" in ['hello', 'hiyas', 'hi', 'howdy'], "\n")
+
+spam= ['hello', 'hi', 'howdy', 'hiyas']
+
+print("cat" in spam, "\n")
+print("hello" in spam, "\n")
+print("good" in spam, "\n")
+
