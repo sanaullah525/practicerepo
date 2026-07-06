@@ -2517,3 +2517,9 @@ for i in range(len(supplies)):
     print(f"Index "+str(i)+" in supplies is: " + str(supplies[i]))
 
 print("\n")
+
+for i, item in enumerate(supplies, start= 1):
+    print(f"Index {i} in supplies is {item}: ")
+
+print("\n")
+
