@@ -2525,3 +2525,4 @@ print("\n")
 
 #   The in and not in operators.
 
+print("howdy" in ['hello', 'hiyas', 'hi', 'howdy'], "\n")
