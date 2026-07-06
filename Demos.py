@@ -2476,3 +2476,8 @@ spam= ['cat', 'bat', 'rat', 'mangoose']
 del spam[-1]
 print(spam, "\n")
 
+user= {"name": "Alina", "role": "Admin"}
+print(user, "\n")
+del user['role']
+print(user, "\n")
+
