@@ -2532,4 +2532,6 @@ spam= ['hello', 'hi', 'howdy', 'hiyas']
 print("cat" in spam, "\n")
 print("hello" in spam, "\n")
 print("good" in spam, "\n")
+print("good" not in spam, "\n")
+print("better" not in spam, "\n")
 
