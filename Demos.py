@@ -2461,7 +2461,6 @@ print(spam, "\n")
 
 spam[-1]= '1235'
 print(spam, "\n")
-'''
 
 #   List concatenation and list replication.
 print([1,2,3] + ['A', 'B', 'C'], "\n")
@@ -2483,4 +2482,20 @@ print(user, "\n")
 
 items = ["apple", "banana", "cherry", "banana"]
 del items[0]
+'''
+
+
+#   Working with lists.
+catNames= []
+
+while True:
+    print('Enter the name of the cat ' + str(len(catNames) + 1) +
+          ' (or enter nothing to stop.):')
+    name= input()
+    if name== "":
+        break
+    catNames= catNames + [name]
+print("The cat names are: ")
+for name in catNames:
+    print(' ' + name)
 
