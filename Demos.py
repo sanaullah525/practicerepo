@@ -2503,14 +2503,17 @@ for name in catNames:
 # Using for loops with lists.
 for i in range(9):
     print(i)
+
 print("\n")
+
 # Above loop prints the same value as below code.
 for i in [0,1,2,3,4,5,6,7,8]:
     print(i)
 
+print("\n")
 
 supplies= ['pens', 'papers', 'staplers', 'flame-throwers', 'binders']
 for i in range(len(supplies)):
-    print(f"Index "+str(i)+" in supplies is: " + str(supplies[i]), "\n")
+    print(f"Index "+str(i)+" in supplies is: " + str(supplies[i]))
 
-
+print("\n")
