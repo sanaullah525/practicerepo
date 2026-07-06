@@ -2507,3 +2507,10 @@ print("\n")
 # Above loop prints the same value as below code.
 for i in [0,1,2,3,4,5,6,7,8]:
     print(i)
+
+
+supplies= ['pens', 'papers', 'staplers', 'flame-throwers', 'binders']
+for i in range(len(supplies)):
+    print(f"Index "+str(i)+" in supplies is: " + str(supplies[i]), "\n")
+
+
