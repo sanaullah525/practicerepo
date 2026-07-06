@@ -2482,7 +2482,6 @@ print(user, "\n")
 
 items = ["apple", "banana", "cherry", "banana"]
 del items[0]
-'''
 
 
 #   Working with lists.
@@ -2498,4 +2497,10 @@ while True:
 print("The cat names are: ")
 for name in catNames:
     print(' ' + name)
+'''
+
+
+# Using for loops with lists.
+for i in range(9):
+    print(i)
 
