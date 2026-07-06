@@ -2481,3 +2481,6 @@ print(user, "\n")
 del user['role']
 print(user, "\n")
 
+
+items = ["apple", "banana", "cherry", "banana"]
+del items[0]
