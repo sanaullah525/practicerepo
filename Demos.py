@@ -2609,7 +2609,7 @@ spam.remove('cat')
 print(spam)
 '''
 
-
+'''
 #_____________________________________________
 # Sorting values in a list woth sort() method.
 #`````````````````````````````````````````````
@@ -2647,4 +2647,5 @@ messages= ['It is certain', 'It is decidedly so', 'Yes definitely',
            ]
 print(messages[random.randint(0, len(messages) - 1)])
 print(random.choice(messages))
+'''
 
