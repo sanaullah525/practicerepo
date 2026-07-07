@@ -2559,3 +2559,18 @@ cat= ['fat', 'black', 'loud']
 size, color, disposition= cat
 '''
 
+'''
+#________________________
+#   += Operators.
+#````````````````````````
+spam= 'Hello'
+spam += ' World!'
+print(spam, "\n")
+
+bacon= ['Zophie']
+bacon *= 3
+print(bacon, "\n")
+'''
+
+
+
