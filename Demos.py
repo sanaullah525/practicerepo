@@ -2534,7 +2534,6 @@ print("hello" in spam, "\n")
 print("good" in spam, "\n")
 print("good" not in spam, "\n")
 print("better" not in spam, "\n")
-'''
 
 
 # The in and not in operators in python.
@@ -2546,4 +2545,17 @@ if name not in mypets:
   print("I do not have a pet named "+ name)
 else:
   print(name + " is my pet.", "\n")
+'''
+
+'''
+# Assigning multiple values to a variable's list in python.
+cat= ['fat', 'black', 'loud']
+size= cat[0]
+color= cat[1]
+disposition= cat[2]
+
+# Instead we shoud do this.
+cat= ['fat', 'black', 'loud']
+size, color, disposition= cat
+'''
 
