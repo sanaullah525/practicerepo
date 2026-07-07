@@ -2609,3 +2609,20 @@ spam.remove('cat')
 print(spam)
 '''
 
+'''
+#_____________________________________________
+# Sorting values in a list woth sort() method.
+#`````````````````````````````````````````````
+rnms= [1,5,3,3.14,-7,1,2,9]
+rnms.sort(); print(rnms)
+rnms.sort(reverse= True)
+print(rnms, "\n")
+
+animals= ['cats', 'ants', 'dogs', 'badgers', 'elephants']
+animals.sort()
+print(animals)
+
+animals.sort(reverse= True)
+print(animals)
+'''
+
