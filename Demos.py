@@ -2522,7 +2522,7 @@ for i, item in enumerate(supplies, start= 1):
 print("\n")
 '''
 
-
+'''
 #   The in and not in operators.
 
 print("howdy" in ['hello', 'hiyas', 'hi', 'howdy'], "\n")
@@ -2534,4 +2534,16 @@ print("hello" in spam, "\n")
 print("good" in spam, "\n")
 print("good" not in spam, "\n")
 print("better" not in spam, "\n")
+'''
+
+
+# The in and not in operators in python.
+
+mypets= ['Zophie', 'Pooka', 'Fat-tail']
+print('Enter a pet name: ')
+name= input()
+if name not in mypets:
+  print("I do not have a pet named "+ name)
+else:
+  print(name + " is my pet.", "\n")
 
