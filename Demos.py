@@ -2639,3 +2639,12 @@ asg2.sort(reverse= True) ; print(asg2)
 # If we want to sort the values in regular alphabetical order.
 asg2.sort(key= str.lower) ; print(asg2)
 
+# Example Program: Magic 8 Ball with a list.
+import random
+messages= ['It is certain', 'It is decidedly so', 'Yes definitely',
+           'Reply hazy try again', 'Ask again later', 'Concentrate and ask again',
+           'My reply is no', 'Outlook not so good', 'Very doubtful'
+           ]
+print(messages[random.randint(0, len(messages) - 1)])
+print(random.choice(messages))
+
