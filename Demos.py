@@ -2572,5 +2572,11 @@ bacon *= 3
 print(bacon, "\n")
 '''
 
-
-
+'''
+#_____________________________________________________
+#   Finding a Value in a List with the index() Method.
+#`````````````````````````````````````````````````````
+spam= ['hello', 'hi', 'howdy', 'heyas']
+print(spam.index('hello'))
+print(spam.index('howdy'))
+'''
