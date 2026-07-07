@@ -2609,7 +2609,7 @@ spam.remove('cat')
 print(spam)
 '''
 
-'''
+
 #_____________________________________________
 # Sorting values in a list woth sort() method.
 #`````````````````````````````````````````````
@@ -2623,6 +2623,12 @@ animals.sort()
 print(animals)
 
 animals.sort(reverse= True)
-print(animals)
-'''
+print(animals, "\n")
+
+#....You cannot sort lists that have both number values.
+lst= [1,3,2,4,'Alina','Bob']
+try:
+  lst.sort()
+except TypeError:
+  print("'TypeError', Cannot sort lists containing both numbers and strings.")
 
