@@ -2599,3 +2599,13 @@ spam= ['cat', 'bat', 'rat', 'elephant']
 spam.remove('bat')
 print(spam)
 '''
+
+'''
+# If a value appears multiple times in a list,
+# only the first instance of the value will be removed.
+
+spam= ['cat', 'bat', 'rat', 'cat', 'hat', 'cat']
+spam.remove('cat')
+print(spam)
+'''
+
