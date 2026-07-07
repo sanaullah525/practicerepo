@@ -2632,3 +2632,10 @@ try:
 except TypeError:
   print("'TypeError', Cannot sort lists containing both numbers and strings.")
 
+# Uppercase letters come before lower-case letters.
+asg2= ['ants', 'Alice', 'Bob', 'badgers', 'cats', 'Carol']
+asg2.sort() ; print(asg2)
+asg2.sort(reverse= True) ; print(asg2)
+# If we want to sort the values in regular alphabetical order.
+asg2.sort(key= str.lower) ; print(asg2)
+
