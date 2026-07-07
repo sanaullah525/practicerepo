@@ -2574,9 +2574,20 @@ print(bacon, "\n")
 
 '''
 #_____________________________________________________
-#   Finding a Value in a List with the index() Method.
+#   Finding index of a Value in a List with the index() Method.
 #`````````````````````````````````````````````````````
 spam= ['hello', 'hi', 'howdy', 'heyas']
 print(spam.index('hello'))
 print(spam.index('howdy'))
 '''
+
+'''
+#________________________________________________________________
+#   Adding Values to lists with the append() and insert() Methods.
+#````````````````````````````````````````````````````````````````
+spam= ['cat', 'dog', 'bat']
+spam.append("mouse")
+spam.insert(1, "Chicken")   # Inserts value at any index.
+print(spam)
+'''
+
