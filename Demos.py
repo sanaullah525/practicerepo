@@ -2591,3 +2591,11 @@ spam.insert(1, "Chicken")   # Inserts value at any index.
 print(spam)
 '''
 
+'''
+#____________________________________________
+#   Removing Values from Lists with remove().
+#````````````````````````````````````````````
+spam= ['cat', 'bat', 'rat', 'elephant']
+spam.remove('bat')
+print(spam)
+'''
