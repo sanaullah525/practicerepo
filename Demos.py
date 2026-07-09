@@ -2670,4 +2670,11 @@ print('Four score and seven ' + \
 name= 'Zophie'
 print(name[0]); print(name[-2]); print(name[0:4], "\n")
 print("Zo" in name); print("z" in name); print("p" in name)
+
+name= 'Zophie'
+print('*********')
+for i in name:
+  print('*** ' + i + ' ***')
+print('*********')
 '''
+
