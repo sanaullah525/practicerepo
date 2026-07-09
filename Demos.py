@@ -2747,4 +2747,14 @@ except:
 print(type(('hello',)))
 print(type(("hello")))
 """
+'''
+#__________________________________________________________
+#   Converting types with the list() and tuple() functions.
+#``````````````````````````````````````````````````````````
+# List is converted into a tuple by using tuple() function.
+print(tuple(['cat', 'dog', 5]))
+# Tuple is converted into a list by using list() function.
+print(list(('cat', 'dog', 5)))
+print(list('hello'))
+'''
 
