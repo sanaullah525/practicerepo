@@ -2740,4 +2740,11 @@ except:
   print("TypeError!")
 '''
 
+"""
+#______________________________________
+#   Trailing comma for tuple in python.
+#``````````````````````````````````````
+print(type(('hello',)))
+print(type(("hello")))
+"""
 
