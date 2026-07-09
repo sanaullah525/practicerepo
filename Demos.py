@@ -2766,3 +2766,13 @@ cheese= spam
 spam= 100
 print(spam); print(cheese)
 '''
+
+'''
+# Refrences in python.
+#`````````````````````
+spam= [0,1,2,3,4,5]
+cheese= spam  # When you assign a list to a variable, you are actually assigning a list reference to the variable.
+print(cheese)
+cheese[1]= 'Hello!'
+print(spam); print(cheese)
+'''
