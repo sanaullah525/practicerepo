@@ -2757,4 +2757,12 @@ print(tuple(['cat', 'dog', 5]))
 print(list(('cat', 'dog', 5)))
 print(list('hello'))
 '''
-
+'''
+#________________________
+#   Refrences in python.
+#````````````````````````
+spam= 42
+cheese= spam
+spam= 100
+print(spam); print(cheese)
+'''
