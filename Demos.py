@@ -2719,4 +2719,14 @@ eggs.append(4); eggs.append(5); eggs.append(6)
 print(eggs)
 '''
 
+'''
+#_______________________
+#   The tuple data type.
+#```````````````````````
+eg= ('hello', 42, 0.5)
+print(eg[0])
+print(eg[1:3])
+print(len(eg))
+'''
+
 
