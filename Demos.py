@@ -2681,7 +2681,7 @@ print('*********')
 
 
 
-
+'''
 #____________________________________
 #   Mutable and Immutable Data Types.
 #````````````````````````````````````
@@ -2690,3 +2690,15 @@ try:
   name[7]= "the"
 except:
   print("TypeError.")
+'''
+
+'''
+#___________________________________________________
+# Mutating a string using slicing and concatenation.
+#```````````````````````````````````````````````````
+name= "Zophie a cat."
+newName= name[0:7] + "the" + name[8:12]
+print(name)
+print(newName)
+'''
+
