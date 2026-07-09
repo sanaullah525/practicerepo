@@ -2657,5 +2657,9 @@ spam= ["apples", "oranges",
               "bananas",
         "cats"]
 print(spam)
-'''
 
+
+# Code continuation with '\' in python.
+print('Four score and seven ' + \
+      'years ago...')
+'''
