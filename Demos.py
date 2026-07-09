@@ -2729,4 +2729,15 @@ print(eg[1:3])
 print(len(eg))
 '''
 
+'''
+#________________________
+#   Tuples are immutable.
+#````````````````````````
+eg= ("hellp", 42, 0.5)
+try:
+  eg[1]= 99
+except:
+  print("TypeError!")
+'''
+
 
