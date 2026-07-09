@@ -2678,3 +2678,15 @@ for i in name:
 print('*********')
 '''
 
+
+
+
+
+#____________________________________
+#   Mutable and Immutable Data Types.
+#````````````````````````````````````
+name= "Zophie a cat."
+try:
+  name[7]= "the"
+except:
+  print("TypeError.")
