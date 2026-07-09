@@ -2649,3 +2649,13 @@ print(messages[random.randint(0, len(messages) - 1)])
 print(random.choice(messages))
 '''
 
+
+
+# Exceptions to indentation rules in python.
+'''
+spam= ["apples", "oranges",
+              "bananas",
+        "cats"]
+print(spam)
+'''
+
