@@ -2790,3 +2790,6 @@ print(list)
 #`````````````````
 var= ['a', 'b', 'c', 'd']
 print(var[int(int('3'*2)/11)])
+
+print(var[-1])
+print(var[:2])
