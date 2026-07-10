@@ -2793,3 +2793,5 @@ print(var[int(int('3'*2)/11)])
 
 print(var[-1])
 print(var[:2])
+
+bacon= [3.14, 'cat', 11, 'cat', True]
