@@ -2802,6 +2802,8 @@ print(bacon.index('cat'), "\n")
 bacon.append(99)
 print(bacon)
 
+bacon.remove('cat')
+print(bacon)
 
 
 #...List concatenation and list replication in python.
