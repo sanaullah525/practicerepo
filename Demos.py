@@ -2797,4 +2797,8 @@ print(var[:2], "\n")
 bacon= [3.14, 'cat', 11, 'cat', True]
 #...Question_3
 #```````````````
-print(bacon.index('cat'))
+print(bacon.index('cat'), "\n")
+
+
+#...List concatenation and list replication in python.
+print(bacon + [new.element])
