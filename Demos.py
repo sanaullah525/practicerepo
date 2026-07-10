@@ -2786,3 +2786,5 @@ list[2]= 'hello'
 print(list)
 
 
+#...Question_2_(a)
+#`````````````````
