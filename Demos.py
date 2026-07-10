@@ -2789,3 +2789,4 @@ print(list)
 #...Question_2_(a)
 #`````````````````
 var= ['a', 'b', 'c', 'd']
+print(var[int(int('3'*2)/11)])
