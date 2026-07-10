@@ -2783,3 +2783,6 @@ print(spam); print(cheese)
 #``````````````
 list= [2,4,6,8,10]
 list[2]= 'hello'
+print(list)
+
+
