@@ -2776,3 +2776,6 @@ print(cheese)
 cheese[1]= 'Hello!'
 print(spam); print(cheese)
 '''
+
+
+#...Practice Questions.
