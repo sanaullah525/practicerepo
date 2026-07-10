@@ -2801,4 +2801,5 @@ print(bacon.index('cat'), "\n")
 
 
 #...List concatenation and list replication in python.
-print(bacon + [new.element])
+print(bacon + ['new_element'])
+print(bacon*2, "\n")
