@@ -2782,3 +2782,4 @@ print(spam); print(cheese)
 #...Question_1
 #``````````````
 list= [2,4,6,8,10]
+list[2]= 'hello'
