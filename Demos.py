@@ -2791,9 +2791,10 @@ print(list)
 var= ['a', 'b', 'c', 'd']
 print(var[int(int('3'*2)/11)])
 print(var[-1])
-print(var[:2])
+print(var[:2], "\n")
 
 
 bacon= [3.14, 'cat', 11, 'cat', True]
 #...Question_3
 #```````````````
+print(bacon.index('cat'))
