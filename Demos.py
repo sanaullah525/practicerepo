@@ -2808,7 +2808,6 @@ print(bacon)
 #...List concatenation and list replication in python.
 print(bacon + ['new_element'])
 print(bacon*2, "\n")
-'''
 
 
 #______________________________
@@ -2828,7 +2827,7 @@ cd[2][1] = 15
 print(li)
 print(cc)
 print(cd)
-
+'''
 
 
 #____________________
@@ -2842,13 +2841,14 @@ def items(someList):
         print(itm + ", ", end= "")
     print("and " + someList[-1])
 items(flist)
-
+print()
 
 
 
 #____________________________
 #   Heart question in python.
 #````````````````````````````
+
 grid= [
 ['.', '.', '.', '.', '.', '.'],
 ['.', 'O', 'O', '.', '.', '.'],
@@ -2863,4 +2863,5 @@ grid= [
 
 for x in range(6):
     for y in range(9):
-        
+        print(grid[y][x], end= " ")
+    print()
