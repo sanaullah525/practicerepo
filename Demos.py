@@ -2838,3 +2838,5 @@ print(cd)
 flist= ['apples', 'bananas', 'tofu', 'cats']
 
 def items(someList):
+    for itm in someList[:-1]:
+        print(itm + ", ", end= "")
