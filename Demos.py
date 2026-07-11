@@ -2836,3 +2836,5 @@ print(cd)
 #````````````````````
 
 flist= ['apples', 'bananas', 'tofu', 'cats']
+
+def items(someList):
