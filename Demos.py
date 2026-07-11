@@ -2842,4 +2842,3 @@ def items(someList):
         print(itm + ", ", end= "")
     print("and " + someList[-1])
 items(flist)
-
