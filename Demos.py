@@ -2813,7 +2813,6 @@ print(bacon*2, "\n")
 #______________________________
 #   Copy vs deepcopy in python.
 #``````````````````````````````
-
 import copy
 
 li = [1, 2, [3,5], 4]
@@ -2827,13 +2826,12 @@ cd[2][1] = 15
 print(li)
 print(cc)
 print(cd)
-'''
+
 
 
 #____________________
 #  Project questions.
 #````````````````````
-
 flist= ['apples', 'bananas', 'tofu', 'cats']
 
 def items(someList):
@@ -2844,11 +2842,9 @@ items(flist)
 print()
 
 
-
 #____________________________
 #   Heart question in python.
 #````````````````````````````
-
 grid= [
 ['.', '.', '.', '.', '.', '.'],
 ['.', 'O', 'O', '.', '.', '.'],
@@ -2865,3 +2861,5 @@ for x in range(6):
     for y in range(9):
         print(grid[y][x], end= " ")
     print()
+'''
+
