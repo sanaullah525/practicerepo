@@ -2834,3 +2834,5 @@ print(cd)
 #____________________
 #  Project questions.
 #````````````````````
+
+flist= ['apples', 'bananas', 'tofu', 'cats']
