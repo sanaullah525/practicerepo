@@ -2775,7 +2775,6 @@ cheese= spam  # When you assign a list to a variable, you are actually assigning
 print(cheese)
 cheese[1]= 'Hello!'
 print(spam); print(cheese)
-'''
 
 
 #...Practice Questions.
@@ -2809,3 +2808,26 @@ print(bacon)
 #...List concatenation and list replication in python.
 print(bacon + ['new_element'])
 print(bacon*2, "\n")
+'''
+
+
+#______________________________
+#   Copy vs deepcopy in python.
+#``````````````````````````````
+
+import copy
+
+li = [1, 2, [3,5], 4]
+
+cc= copy.copy(li)
+cd= copy.deepcopy(li)
+
+cc[2][0] = 10
+cd[2][1] = 15
+
+print(li)
+print(cc)
+print(cd)
+
+
+
