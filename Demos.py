@@ -2922,3 +2922,4 @@ def stri():
 stri()
 
 
+# Increasing star pattern using list comprehension.
