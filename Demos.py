@@ -2895,3 +2895,9 @@ def isp():
   print("\n")
 
 isp()
+
+
+# Printing a simple square of stars.
+
+
+
