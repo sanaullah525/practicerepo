@@ -2923,3 +2923,9 @@ stri()
 
 
 # Increasing star pattern using list comprehension.
+def isp():
+    n = int(input("Enter number of rows: "))
+    print("", *[("* " * (n - i)) + "\n" for i in range(n)], "\n")
+
+isp()
+
