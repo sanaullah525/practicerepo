@@ -2898,3 +2898,15 @@ isp()
 
 
 # Printing a simple square of stars.
+def stq():
+  n= int(input("Enter number of rows: "))
+  print()
+  for i in range(n):    # Outer loop handles rows.
+    for j in range(n):    # Inner loop handles columns.
+      print("*", end= " ")
+    print()
+  print("\n")
+
+stq()
+
+
