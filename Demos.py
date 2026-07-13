@@ -2911,3 +2911,14 @@ stq()
 
 
 # Print an increasing triangle star pattern.
+def stri():
+  n= int(input("Enter a number of rows: "))
+  print()
+  for i in range(n):
+    for j in range(i+1):    # When i is 0, j will be 1. and so on...
+      print("*", end= " ")
+    print()
+  print("\n")
+stri()
+
+
