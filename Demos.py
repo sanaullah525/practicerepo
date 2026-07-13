@@ -2931,3 +2931,12 @@ isp()
 
 
 # Inserting a line after the user input.
+def isp():
+    n = int(input("Enter number of rows: "))
+    # Generate each row, then join them with a newline
+    pattern = "\n".join(("* " * (n - i)).rstrip() for i in range(n))
+    print(f"\n{pattern}\n")
+
+isp()
+
+
