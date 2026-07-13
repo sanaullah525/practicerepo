@@ -2898,6 +2898,3 @@ isp()
 
 
 # Printing a simple square of stars.
-
-
-
