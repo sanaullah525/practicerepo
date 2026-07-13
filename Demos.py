@@ -2884,4 +2884,14 @@ def sp():
   print("\n")
 sp()
 
+def isp():
+  n= int(input("Enter number of rows: "))
+  print()
 
+  for i in range(n):
+    for j in range(n-i):
+      print("*", end= " ")
+    print()
+  print("\n")
+
+isp()
