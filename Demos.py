@@ -2910,3 +2910,4 @@ def stq():
 stq()
 
 
+# Print an increasing triangle star pattern.
