@@ -2956,7 +2956,9 @@ print(f"My cat has {myCat['disposition']} disposition.", "\n")
 #...Lists vs Dictionaries.
 #_________________________
 
+# Order matters in list.
 bacon1= ["dog", "cat", "mouse"]
 bacon2= ["dog", "mouse", "cat"]
 print(bacon1 == bacon2, "\n")
+
 
