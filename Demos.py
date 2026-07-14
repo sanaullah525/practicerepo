@@ -2955,3 +2955,5 @@ print(f"My cat has {myCat['disposition']} disposition.")
 
 #...Lists vs Dictionaries.
 #_________________________
+
+baconlst= ["dog", "cat", "mouse"]
