@@ -2869,7 +2869,7 @@ for x in range(6):
 #__________________________________________
 #   Pattern programing questions in python.
 #``````````````````````````````````````````
-
+'''
 # sp stands for print star pattern.
 # isp stands for inverted star pattern.
 
@@ -2938,5 +2938,6 @@ def isp():
     print(f"\n{pattern}\n")
 
 isp()
+'''
 
 
