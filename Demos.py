@@ -2962,3 +2962,8 @@ bacon2= ["dog", "mouse", "cat"]
 print(bacon1 == bacon2)
 
 
+# Order in dictionaries.
+dict1= {'name': 'Ziphu', 'species':'cat', 'age': '8'}
+dict2= {'species': 'cat', 'name': 'Ziphu', 'age': '8'}
+print(dict1 == dict2, "\n")
+
