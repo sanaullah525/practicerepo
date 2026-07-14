@@ -2949,3 +2949,9 @@ myCat= {'size': 'fat', 'color': 'gray', 'disposition': 'loud'}
 
 print(f"My cat is {myCat['size']}.")
 print(f"My cat has  {myCat['color']} fur.")
+print(f"My cat has {myCat['disposition']} disposition.")
+
+
+
+#...Lists vs Dictionaries.
+#_________________________
