@@ -2957,3 +2957,6 @@ print(f"My cat has {myCat['disposition']} disposition.", "\n")
 #_________________________
 
 bacon1= ["dog", "cat", "mouse"]
+bacon2= ["dog", "mouse", "cat"]
+print(bacon1 == bacon2, "\n")
+
