@@ -2947,4 +2947,4 @@ isp()
 
 myCat= {'size': 'fat', 'color': 'gray', 'disposition': 'loud'}
 
-print(f"My cat is {myCat['size']}", "\n")
+print(f"My cat is {myCat['size']}.")
