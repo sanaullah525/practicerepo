@@ -2949,11 +2949,11 @@ myCat= {'size': 'fat', 'color': 'gray', 'disposition': 'loud'}
 
 print(f"My cat is {myCat['size']}.")
 print(f"My cat has  {myCat['color']} fur.")
-print(f"My cat has {myCat['disposition']} disposition.")
+print(f"My cat has {myCat['disposition']} disposition.", "\n")
 
 
 
 #...Lists vs Dictionaries.
 #_________________________
 
-baconlst= ["dog", "cat", "mouse"]
+bacon1= ["dog", "cat", "mouse"]
