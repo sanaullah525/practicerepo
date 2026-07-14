@@ -2944,3 +2944,5 @@ isp()
 #_______________________________________________
 #   DICTIONARIES and structuring data in python.
 #```````````````````````````````````````````````
+
+myCat= {'size': 'fat', 'color': 'gray', 'disposition': 'loud'}
