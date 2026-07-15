@@ -3010,6 +3010,7 @@ car = {"brand": "Ford", "model": "Mustang", "year": 1964, "color": "red"}
 model_value = car.pop("model")
 print(f"Removed model: {model_value}")
 
+
 # 2. .popitem() removes and returns the last inserted (key, value) pair
 last_item = car.popitem()
 print(f"Removed last item: {last_item}")
