@@ -3022,3 +3022,5 @@ print("Cleared dictionary: ", car)
 
 
 # viewing and iterating through keys, values, and pairs.
+
+prices = {"laptop": 999, "mouse": 25, "monitor": 200}
