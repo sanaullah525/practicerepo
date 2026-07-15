@@ -3017,10 +3017,14 @@ print(f"Removed last item: {last_item}")
 
 # 3 .clear() empties the entire dictionary.
 car.clear()
-print("Cleared dictionary: ", car)
+print("Cleared dictionary: ", car, "\n")
 
 
 
 # viewing and iterating through keys, values, and pairs.
 
 prices = {"laptop": 999, "mouse": 25, "monitor": 200}
+print("Products: ")
+for product in prices.keys():
+    print(f"-{product}")
+
