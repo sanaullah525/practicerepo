@@ -2989,3 +2989,4 @@ print(user_profile)
 
 
 #  .update() method
+inventory = {"apples": 10, "bananas": 5}
