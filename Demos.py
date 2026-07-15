@@ -2997,3 +2997,4 @@ inventory["oranges"] = 15
 new_deliveries = {"bananas": 20, "grapes": 8}
 inventory.update(new_deliveries)
 
+print("Updated Inventory: ", inventory)
