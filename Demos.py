@@ -3019,3 +3019,6 @@ print(f"Removed last item: {last_item}")
 car.clear()
 print("Cleared dictionary: ", car)
 
+
+
+# viewing and iterating through keys, values, and pairs.
