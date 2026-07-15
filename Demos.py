@@ -2977,4 +2977,6 @@ print(dict1 == dict2, "\n")
 user_profile = {"username": "coder99", "experience": "advanced"}
 
 print(user_profile["username"])
+# Using .get() to provide safe value.
+email = user_profile.get("email", "No email provided")
 
