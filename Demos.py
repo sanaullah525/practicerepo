@@ -2997,7 +2997,8 @@ inventory["oranges"] = 15
 new_deliveries = {"bananas": 20, "grapes": 8}
 inventory.update(new_deliveries)
 
-print("Updated Inventory: ", inventory)
+print("Updated Inventory: ", inventory, "\n")
+
 
 
 
@@ -3008,4 +3009,8 @@ car = {"brand": "Ford", "model": "Mustang", "year": 1964, "color": "red"}
 # 1. .pop() removes a specific key and returns its value
 model_value = car.pop("model")
 print(f"Removed model: {model_value}")
+
+# 2. .popitem() removes and returns the last inserted (key, value) pair
+last_item = car.popitem()
+print(f"Removed last item: {last_item}")
 
