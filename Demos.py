@@ -2987,3 +2987,5 @@ print(f"Email: {email}")
 user_profile.setdefault("theme", "dark")
 print(user_profile)
 
+
+#  .update() method
