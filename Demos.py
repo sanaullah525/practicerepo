@@ -3033,3 +3033,8 @@ print("\nPrices: ")
 for price in prices.values():
     print(f" -${price}")
 
+# Iterating through both Keys and Values of a dictionary.
+print("\nCatalog details: ")
+for product, price in prices.items():
+    print(f"{product}: ${price}")
+
