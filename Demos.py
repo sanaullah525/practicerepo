@@ -2995,3 +2995,5 @@ inventory = {"apples": 10, "bananas": 5}
 inventory["oranges"] = 15
 
 new_deliveries = {"bananas": 20, "grapes": 8}
+inventory.update(new_deliveries)
+
