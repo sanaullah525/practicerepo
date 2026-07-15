@@ -3004,3 +3004,8 @@ print("Updated Inventory: ", inventory)
 #   .pop(), .popitem(), and .clear()
 
 car = {"brand": "Ford", "model": "Mustang", "year": 1964, "color": "red"}
+
+# 1. .pop() removes a specific key and returns its value
+model_value = car.pop("model")
+print(f"Removed model: {model_value}")
+
