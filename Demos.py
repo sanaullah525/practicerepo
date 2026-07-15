@@ -3015,3 +3015,7 @@ print(f"Removed model: {model_value}")
 last_item = car.popitem()
 print(f"Removed last item: {last_item}")
 
+# 3 .clear() empties the entire dictionary.
+car.clear()
+print("Cleared dictionary: ", car)
+
