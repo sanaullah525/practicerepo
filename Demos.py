@@ -2990,3 +2990,8 @@ print(user_profile)
 
 #  .update() method
 inventory = {"apples": 10, "bananas": 5}
+
+
+# 1. Adding/updating a single item
+inventory["oranges"] = 15
+
