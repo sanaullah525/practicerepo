@@ -2982,4 +2982,8 @@ print(user_profile["username"])
 email = user_profile.get("email", "No email provided")
 print(f"Email: {email}")
 
+# 3. Using .setdefault() to ensure a key exists
+# If the key is missing, it inserts the key with the given value
+user_profile.setdefault("theme", "dark")
+print(user_profile)
 
