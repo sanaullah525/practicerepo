@@ -2941,10 +2941,11 @@ isp()
 '''
 
 
+
 #_______________________________________________
 #   DICTIONARIES and structuring data in python.
 #```````````````````````````````````````````````
-
+'''
 myCat= {'size': 'fat', 'color': 'gray', 'disposition': 'loud'}
 
 print(f"My cat is {myCat['size']}.")
@@ -2966,4 +2967,4 @@ print(bacon1 == bacon2)
 dict1= {'name': 'Ziphu', 'species':'cat', 'age': '8'}
 dict2= {'species': 'cat', 'name': 'Ziphu', 'age': '8'}
 print(dict1 == dict2, "\n")
-
+'''
