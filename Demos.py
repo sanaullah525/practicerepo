@@ -3028,3 +3028,8 @@ print("Products: ")
 for product in prices.keys():
     print(f"-{product}")
 
+# Iterating through values.
+print("\nPrices: ")
+for price in prices.values():
+    print(f" -${price}")
+
