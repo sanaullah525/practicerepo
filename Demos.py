@@ -3068,3 +3068,8 @@ bakery_prices = {"Bread": 3.50, "Croissant": 2.75, "Cookie": 1.50, "Cake": 15.00
 
 print("--- Working with .values() ---")
 
+
+# 1. Get all values
+all_prices = bakery_prices.values()
+print(f"Dictionary values object: {all_prices}")
+
