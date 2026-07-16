@@ -3061,3 +3061,10 @@ if search_name in grades.keys():
     print(f"\nYes, {search_name} is in the grade book.")
 
 
+
+
+# A dictionary of item prices in a bakery
+bakery_prices = {"Bread": 3.50, "Croissant": 2.75, "Cookie": 1.50, "Cake": 15.00}
+
+print("--- Working with .values() ---")
+
