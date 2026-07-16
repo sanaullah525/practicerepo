@@ -3049,3 +3049,8 @@ print("--- Working with .keys() ---")
 # 1. Get all keys
 all_names = grades.keys()
 print(f"Dictionary keys object: {all_names}")
+
+# 2. Loop through the keys directly
+print("\nStudent Roster:")
+for name in grades.keys():
+    print(f"- {name}")
