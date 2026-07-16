@@ -2965,10 +2965,10 @@ bacon2= ["dog", "mouse", "cat"]
 print(bacon1 == bacon2)
 
 
-# Order in dictionaries.
+# Order does not matter in dictionaries.
 dict1= {'name': 'Ziphu', 'species':'cat', 'age': '8'}
 dict2= {'species': 'cat', 'name': 'Ziphu', 'age': '8'}
-print(dict1 == dict2, "\n")
+print("\n", dict1 == dict2, "\n")
 
 
 
