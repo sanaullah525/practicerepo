@@ -3038,3 +3038,9 @@ print("\nCatalog details: ")
 for product, price in prices.items():
     print(f"{product}: ${price}")
 
+
+
+# A simple dictionary of student names and their grades
+grades = {"Alice": "A", "Bob": "B", "Charlie": "A", "David": "C"}
+
+print("--- Working with .keys() ---")
