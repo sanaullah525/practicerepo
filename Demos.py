@@ -3044,3 +3044,8 @@ for product, price in prices.items():
 grades = {"Alice": "A", "Bob": "B", "Charlie": "A", "David": "C"}
 
 print("--- Working with .keys() ---")
+
+
+# 1. Get all keys
+all_names = grades.keys()
+print(f"Dictionary keys object: {all_names}")
