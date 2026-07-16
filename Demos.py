@@ -3045,7 +3045,6 @@ grades = {"Alice": "A", "Bob": "B", "Charlie": "A", "David": "C"}
 
 print("--- Working with .keys() ---")
 
-
 # 1. Get all keys
 all_names = grades.keys()
 print(f"Dictionary keys object: {all_names}")
@@ -3054,3 +3053,11 @@ print(f"Dictionary keys object: {all_names}")
 print("\nStudent Roster:")
 for name in grades.keys():
     print(f"- {name}")
+
+
+# 3. Check if a key exists using .keys()
+search_name = "Alice"
+if search_name in grades.keys():
+    print(f"\nYes, {search_name} is in the grade book.")
+
+
