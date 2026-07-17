@@ -3070,3 +3070,4 @@ print(f"Dictionary values object: {all_prices}")
 
 
 # Checking whether a value exist in a dictionary or not.
+llm= {"name": "ziphu", 'age':7}
