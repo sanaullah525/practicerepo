@@ -2999,7 +2999,6 @@ inventory.update(new_deliveries)
 print("Updated Inventory: ", inventory, "\n")
 
 
-
 #   .pop(), .popitem(), and .clear()
 
 car= {"brand": "Ford", "model": "Mustang", "year": 1964, "color": "red"}
