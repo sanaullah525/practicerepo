@@ -2975,15 +2975,15 @@ print("\n", dict1 == dict2, "\n")
 # Safely read data from a dictionary without causing errors.
 
 user_profile = {"username": "coder99", "experience": "advanced"}
-
-print(user_profile["username"])
+print(user_profile["username"], "\n")
 
 # Using .get() to provide safe value.
 email = user_profile.get("email", "No email provided")
-print(f"Email: {email}")
+print(f"Email: {email}", "\n")
+
 
 # 3. Using .setdefault() to ensure a key exists
-# If the key is missing, it inserts the key with the given value
+# If the key is missing, it inserts the key with the given value.
 user_profile.setdefault("theme", "dark")
 print(user_profile)
 
