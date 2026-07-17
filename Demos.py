@@ -3066,9 +3066,9 @@ print("--- Working with .values() ---")
 
 # 1. Get all values
 all_prices = bakery_prices.values()
-print(f"Dictionary values object: {all_prices}")
+print(f"Dictionary values object: {all_prices}", "\n")
 
 
 # Checking whether a value exist in a dictionary or not.
 llm= {"name": "ziphu", 'age':7}
-'name' in llm.keys()
+print('name' in llm.keys())
