@@ -2971,7 +2971,6 @@ dict2= {'species': 'cat', 'name': 'Ziphu', 'age': '8'}
 print("\n", dict1 == dict2, "\n")
 
 
-
 # Safely read data from a dictionary without causing errors.
 
 user_profile = {"username": "coder99", "experience": "advanced"}
