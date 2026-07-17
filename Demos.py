@@ -3074,4 +3074,4 @@ print(f"Dictionary values object: {all_prices}", "\n")
 llm= {"name": "ziphu", 'age':7}
 
 print('name' in llm.keys(), "\n")
-print('age', in llm.keys(), "\n")
+print('age' in llm.keys(), "\n")
