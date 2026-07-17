@@ -3001,7 +3001,6 @@ print("Updated Inventory: ", inventory, "\n")
 
 
 
-
 #   .pop(), .popitem(), and .clear()
 
 car= {"brand": "Ford", "model": "Mustang", "year": 1964, "color": "red"}
@@ -3070,6 +3069,5 @@ print("--- Working with .values() ---")
 # 1. Get all values
 all_prices = bakery_prices.values()
 print(f"Dictionary values object: {all_prices}")
-
 
 
