@@ -2991,7 +2991,7 @@ print(user_profile)
 #  .update() method
 inventory = {"apples": 10, "bananas": 5}
 
-# 1. Adding/updating a single item
+# 1. Adding/updating a single item.
 inventory["oranges"] = 15
 
 new_deliveries = {"bananas": 20, "grapes": 8}
@@ -3004,15 +3004,15 @@ print("Updated Inventory: ", inventory, "\n")
 
 #   .pop(), .popitem(), and .clear()
 
-car = {"brand": "Ford", "model": "Mustang", "year": 1964, "color": "red"}
+car= {"brand": "Ford", "model": "Mustang", "year": 1964, "color": "red"}
 
 # 1. .pop() removes a specific key and returns its value
-model_value = car.pop("model")
+model_value= car.pop("model")
 print(f"Removed model: {model_value}")
 
 
 # 2. .popitem() removes and returns the last inserted (key, value) pair
-last_item = car.popitem()
+last_item= car.popitem()
 print(f"Removed last item: {last_item}")
 
 # 3 .clear() empties the entire dictionary.
@@ -3023,7 +3023,7 @@ print("Cleared dictionary: ", car, "\n")
 
 # viewing and iterating through keys, values, and pairs.
 
-prices = {"laptop": 999, "mouse": 25, "monitor": 200}
+prices= {"laptop": 999, "mouse": 25, "monitor": 200}
 print("Products: ")
 for product in prices.keys():
     print(f"-{product}")
@@ -3072,4 +3072,6 @@ print("--- Working with .values() ---")
 # 1. Get all values
 all_prices = bakery_prices.values()
 print(f"Dictionary values object: {all_prices}")
+
+
 
