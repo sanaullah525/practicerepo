@@ -2985,7 +2985,7 @@ print(f"Email: {email}", "\n")
 # 3. Using .setdefault() to ensure a key exists
 # If the key is missing, it inserts the key with the given value.
 user_profile.setdefault("theme", "dark")
-print(user_profile)
+print(user_profile, "\n")
 
 
 #  .update() method
@@ -3008,7 +3008,7 @@ car= {"brand": "Ford", "model": "Mustang", "year": 1964, "color": "red"}
 
 # 1. .pop() removes a specific key and returns its value
 model_value= car.pop("model")
-print(f"Removed model: {model_value}")
+print(f"Removed model: {model_value}", "\n")
 
 
 # 2. .popitem() removes and returns the last inserted (key, value) pair
@@ -3021,7 +3021,7 @@ print("Cleared dictionary: ", car, "\n")
 
 
 
-# viewing and iterating through keys, values, and pairs.
+# Viewing and iterating through keys, values, and pairs.
 
 prices= {"laptop": 999, "mouse": 25, "monitor": 200}
 print("Products: ")
@@ -3036,14 +3036,14 @@ for price in prices.values():
 # Iterating through both Keys and Values of a dictionary.
 print("\nCatalog details: ")
 for product, price in prices.items():
-    print(f"{product}: ${price}")
+    print(f"{product}: ${price}", "\n")
 
 
 
 # A simple dictionary of student names and their grades
 grades = {"Alice": "A", "Bob": "B", "Charlie": "A", "David": "C"}
 
-print("--- Working with .keys() ---")
+print("\n--- Working with .keys() ---")
 
 # 1. Get all keys
 all_names = grades.keys()
