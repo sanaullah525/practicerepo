@@ -3072,4 +3072,6 @@ print(f"Dictionary values object: {all_prices}", "\n")
 
 # Checking whether a value exist in a dictionary or not.
 llm= {"name": "ziphu", 'age':7}
-print('name' in llm.keys())
+
+print('name' in llm.keys(), "\n")
+print('age', in llm.keys(), "\n")
