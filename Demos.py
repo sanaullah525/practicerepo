@@ -2948,7 +2948,7 @@ isp()
 #_______________________________________________
 #   DICTIONARIES and structuring data in python.
 #```````````````````````````````````````````````
-
+'''
 myCat= {'size': 'fat', 'color': 'gray', 'disposition': 'loud'}
 
 print(f"My cat is {myCat['size']}.")
@@ -3117,4 +3117,6 @@ for character in message:
     count.setdefault(character, 0)
     count[character]= count[character] + 1
 print(count, "\n")
+'''
+
 
