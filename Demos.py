@@ -3122,9 +3122,18 @@ print(count, "\n")
 
 
 #_______________________
-#       Pretty Printing
+#    Pretty Printing
 #````````````````````````
 import pprint
 msg= 'It was a bright cold day in April, and the clocks were striking thirteen.'
 count= {}
+
+for char in msg:
+    count.setdefault(char, 0)
+    count[char]= count[char] + 1
+pprint.pprint(count); pprint.pformat(count)
+#__These two lines are equivalent.
+print("\n\n")
+
+
 
