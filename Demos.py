@@ -3090,4 +3090,13 @@ print("I am bringing " + str(picnicItems.get('eggs', 0)) + ' eggs.')
 try:
     print("I am bringing "+str(picnicItems['eggs'])+ "eggs.")
 except KeyError:
-    print("KeyError! 'eggs' is not defined!")
+    print("KeyError! 'eggs' is not defined!\n\n")
+
+
+#_________________________
+# The serdefault() Method.
+#``````````````````````````
+pet= {'name':'Pooke', 'age':5}
+if 'color' not in pet:
+    pet['color']= 'black'
+
