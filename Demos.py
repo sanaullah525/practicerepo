@@ -3109,3 +3109,5 @@ pet.setdefault('color', 'white')
 print(pet, "\n\n")
 
 
+# CharacterCount
+message= 'It was bright cold day in April, and the clocks were striking thirteen.'
