@@ -3074,4 +3074,7 @@ llm= {"name": "ziphu", 'age':7}
 
 print("\n",'name' in llm.keys())
 print('color' in llm.keys())
+print('color' not in llm.keys())
+print('specs' not in llm.keys(), "\n\n")
+
 
