@@ -3077,3 +3077,12 @@ print('name' in llm.keys(), "\n")
 print('age' in llm.keys(), "\n")
 print('color' not in llm.keys(), "\n")
 print('color' in llm.keys(), "\n")
+
+
+# Using slice notation on a List of lists.
+l= [[1,2],[3,4]]
+li= l.copy()
+l[0].append(99)
+
+print("\nOriginal list: ", li); print("In place changed list: ", l, "\n")
+
