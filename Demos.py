@@ -3097,6 +3097,12 @@ except KeyError:
 # The serdefault() Method.
 #``````````````````````````
 pet= {'name':'Pooke', 'age':5}
+
 if 'color' not in pet:
     pet['color']= 'black'
+
+pet.setdefault('color', 'black')
+print(pet)
+pet.setdefault('color', 'white')
+print(pet, "\n\n")
 
