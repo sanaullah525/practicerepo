@@ -3121,7 +3121,7 @@ print(count, "\n")
 
 
 '''
-#_______________________
+#______________________
 #    Pretty Printing
 #````````````````````````
 import pprint
@@ -3141,8 +3141,7 @@ print("\n\n")
 #_____________________________________________________
 #    Using Data Structures to Model Real-World Things.
 #``````````````````````````````````````````````````````
-#``````````````````````
-#   Tic-Tac-Toe Board
+#____Tic-Tac-Toe Board
 
 board = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
 'mid-L': ' ', 'mid-M': ' ', 'mid-R': ' ',
@@ -3150,13 +3149,14 @@ board = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
 print(board, "\n")
 
 # If a player chose the mid on his first turn.
-theBoard = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
+xboard = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
 'mid-L': ' ', 'mid-M': ' X ', 'mid-R': ' ',
 'low-L': ' ', 'low-M': ' ', 'low-R': ' '}
-print(theBoard, "\n")
+print(xboard, "\n")
 
 oboard= {'top-L': 'O', 'top-M': 'O', 'top-R': 'O',
 'mid-L': 'X', 'mid-M': 'X', 'mid-R': ' ',
 'low-L': ' ', 'low-M': ' ', 'low-R': 'X'}
-print(oboard)
+print(oboard, "\n")
+
 
