@@ -3168,5 +3168,7 @@ def printBoard(board):
     print('-+-+-')
     print(board['low-L'] + '|' + board['low-M'] + '|' + board['low-R'])
 
-printBoard(board)
-printBoard(oboard)
+printBoard(board); print("\n")
+printBoard(oboard); print("\n\n")
+
+
