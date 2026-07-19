@@ -3149,13 +3149,11 @@ board = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
 'low-L': ' ', 'low-M': ' ', 'low-R': ' '}
 print(board, "\n")
 
-
 # If a player chose the mid on his first turn.
 theBoard = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
 'mid-L': ' ', 'mid-M': ' X ', 'mid-R': ' ',
 'low-L': ' ', 'low-M': ' ', 'low-R': ' '}
 print(theBoard)
-
 
 oboard= {'top-L': 'O', 'top-M': 'O', 'top-R': 'O',
 'mid-L': 'X', 'mid-M': 'X', 'mid-R': ' ',
