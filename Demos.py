@@ -3157,3 +3157,7 @@ theBoard = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
 print(theBoard)
 
 
+oboard= {'top-L': 'O', 'top-M': 'O', 'top-R': 'O',
+'mid-L': 'X', 'mid-M': 'X', 'mid-R': ' ',
+'low-L': ' ', 'low-M': ' ', 'low-R': 'X'}
+print(oboard)
