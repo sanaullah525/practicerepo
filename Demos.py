@@ -3160,3 +3160,4 @@ oboard= {'top-L': 'O', 'top-M': 'O', 'top-R': 'O',
 print(oboard, "\n")
 
 
+#___Printing board as a function.
