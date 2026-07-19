@@ -3172,3 +3172,5 @@ printBoard(board); print("\n")
 printBoard(oboard); print("\n\n")
 
 
+
+# Allowing the players to enter their moves.
