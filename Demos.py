@@ -3226,3 +3226,7 @@ print("- Apple Pies:    " + str(totalBrought(allGuests, "Apple Pies")))
 
 
 pet= {"Species": "Cat"}
+if 'Color' not in pet:
+    pet["Species"]= 'Black'
+print(pet, "\n")
+
