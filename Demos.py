@@ -3216,4 +3216,3 @@ def totalBrought(guests, item):
         numBrought= numBrought + v.get(item, 0)
     return numBrought
 
-
