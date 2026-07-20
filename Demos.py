@@ -3200,6 +3200,5 @@ printBoard(board)
 
 allGuests= {'Alice' : {'apples' : 5, 'pretzels' : 12},
             'Bob' : {'ham sandwiches' : 3, 'apples' : 2},
-            'Carol': {''}
-            
+            'Carol': {'cups': 3, 'apple pies': 1}
             }
