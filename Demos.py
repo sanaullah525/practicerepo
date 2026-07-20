@@ -3236,3 +3236,9 @@ if 'Color' not in pet:
 print(pet, "\n")
 
 
+# Printing it nicely
+for key, value in pet.items():
+    print(f"{key}: {value}")
+
+
+
