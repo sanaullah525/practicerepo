@@ -3210,3 +3210,4 @@ def totalBrought(guests, item):
 
 
 
+user_counts= {'admin': 5, "editor": 12, 'guest': 43}
