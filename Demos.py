@@ -3211,3 +3211,5 @@ def totalBrought(guests, item):
 
 
 user_counts= {'admin': 5, "editor": 12, 'guest': 43}
+for role, count in user_counts.items():
+    print(f"Role: {role}, Active Users: {count}")
