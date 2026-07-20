@@ -3216,3 +3216,8 @@ def totalBrought(guests, item):
         numBrought= numBrought + v.get(item, 0)
     return numBrought
 
+print('Number of items being brought: ')
+print("- Apples:    " + str(totalBrought(allGuests, "apples")))
+print("- Cups:    " + str(totalBrought(allGuests, "Cups")))
+print()
+print("- ham sandwiches:    " + str(totalBrought(allGuests, "ham sandwiches")))
