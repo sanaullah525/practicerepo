@@ -3200,7 +3200,7 @@ for role, count in user_counts.items():
 '''
 
 
-
+'''
 #_____________________________________________________
 #    Using Data Structures to Model Real-World Things.
 #``````````````````````````````````````````````````````
@@ -3222,3 +3222,6 @@ print("- Cups:    " + str(totalBrought(allGuests, "Cups")))
 print("- Cakes:    " + str(totalBrought(allGuests, "Cakes")))
 print("- Ham sandwiches:    " + str(totalBrought(allGuests, "Ham sandwiches")))
 print("- Apple Pies:    " + str(totalBrought(allGuests, "Apple Pies")))
+'''
+
+
