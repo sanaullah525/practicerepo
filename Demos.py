@@ -3226,10 +3226,13 @@ print("- Apple Pies:    " + str(totalBrought(allGuests, "Apple Pies")))
 
 
 pet= {"Species": "Cat"}
+
+pet.setdefault('Color', 'Black')
+print(f"Using setdefault() function:\n")
+
 if 'Color' not in pet:
     pet["Color"]= 'Black'
+
 print(pet, "\n")
 
-# Shortcut for the above code.
-pet.setdefault('Color', 'Black')
-print("Using setdefault() function:\n", pet)
+
