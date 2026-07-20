@@ -3227,6 +3227,9 @@ print("- Apple Pies:    " + str(totalBrought(allGuests, "Apple Pies")))
 
 pet= {"Species": "Cat"}
 if 'Color' not in pet:
-    pet["Species"]= 'Black'
+    pet["Color"]= 'Black'
 print(pet, "\n")
 
+# Shortcut for the above code.
+pet.setdefault('Color', 'Black')
+print("Using setdefault() function:\n", pet)
