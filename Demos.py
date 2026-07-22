@@ -3244,3 +3244,6 @@ for key, value in pet.items():
 #______________________
 #    Practice Projects.
 #``````````````````````
+# Inventory
+
+stuff= {'arrow': 12, 'gold coin': 42, 'rope': 1, 'torch': 6, 'dagger': 1}
