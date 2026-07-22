@@ -3282,3 +3282,6 @@ inv= addToInventory(inv, dragonLoot)
 '''
 
 
+#```````````````````````
+#  Manipulating Strings.
+#-----------------------
