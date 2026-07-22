@@ -3267,3 +3267,10 @@ dragonLoot= ['gold coin', 'dagger', 'gold coin', 'gold coin' 'ruby']
 def addToInventory(inventory, addedItems):
   print("Updated Inventory:")
   updatedInventory= inventory.copy()
+  for item in addedItems:
+      updatedInventory[item]= updatedInventory.setdefault(item, 0) + 1
+  totalItems= 0
+  for k, v in updatedInventory.items():
+    totalItems += v
+    print(f"{v} {k}")
+  print(f"Total number of items: {totalItems}")
