@@ -3287,3 +3287,6 @@ inv= addToInventory(inv, dragonLoot)
 #-----------------------
 #___String: An immutable sequence of Unicode characters used to handle textual data.
 
+strng= "That is Alina's cat."
+print(strng)
+
