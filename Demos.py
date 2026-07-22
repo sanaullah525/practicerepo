@@ -3251,3 +3251,6 @@ def displayInventory(inventory):
   print("Inventory:")
   item_total= 0
   for k, v in inventory.items():
+    print(f"{v} {k}")
+    item_total= sum(stuff.values())
+  print("Total number of items: " + str(item_total))
