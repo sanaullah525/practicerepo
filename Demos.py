@@ -3275,3 +3275,5 @@ def addToInventory(inventory, addedItems):
     print(f"{v} {k}")
   print(f"Total number of items: {totalItems}")
   return updatedInventory
+
+inv= {'gold coin': 42, 'rope': 1}
