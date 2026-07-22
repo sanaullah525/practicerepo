@@ -3262,3 +3262,5 @@ displayInventory(stuff)
 
 
 # List to Dictionary Function for Fantacy Game Inventory.
+
+dragonLoot= ['gold coin', 'dagger', 'gold coin', 'gold coin' 'ruby']
