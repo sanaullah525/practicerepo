@@ -3320,3 +3320,8 @@ print("Apples\t500\n")
 # New line character (\n)
 print("Items\tPrice(PKR)\nMangoes\t300\nApples\t500\n")
 print("This is the first line.\nThis is the line after the newline character.\n")
+
+# Double Backslash (\\)
+#  print("C:\Users\Name")        # This will through a SyntaxError error.
+# Python sees \U as a special Unicode code and throws a SyntaxError!
+print("C:\\Users\\Name")   #---->  This won't through any error.
