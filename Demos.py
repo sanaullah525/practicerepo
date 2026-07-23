@@ -3293,3 +3293,10 @@ print(strng)
 #  Escape Cnaracters.
 #````````````````````
 
+# Single Backlash (\): 
+'''
+It is special character which acts as a signal telling Python, "Hey, the next character 
+is a special command!" (like \n for a new line or \t for a tab).
+print()
+'''
+
