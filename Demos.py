@@ -3307,3 +3307,8 @@ msg= 'It\'s a great day.'
 print(msg, "\n")
 
 # Double quote (\")
+ss= "She said, \"I'm not going.\""
+print(ss)
+sb= "She said, \"Have a great time.\""
+print(sb, "\n")
+
