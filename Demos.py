@@ -3294,11 +3294,11 @@ print(strng)
 #````````````````````
 
 # Single Backlash (\): 
-'''
+"""
 It is special character which acts as a signal telling Python, "Hey, the next character 
 is a special command!" (like \n for a new line or \t for a tab).
 print()
-'''
+"""
 
 # Single quote (\')
 spm= 'That is Alina\'s laptop.'
@@ -3326,3 +3326,4 @@ print("This is the first line.\nThis is the line after the newline character.\n"
 # Python sees \U as a special Unicode code and throws a SyntaxError!
 print("C:\\Users\\Name")   #---->  This won't through any error.
 '''
+
