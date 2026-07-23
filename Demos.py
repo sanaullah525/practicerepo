@@ -3313,3 +3313,7 @@ sb= "She said, \"Have a great time.\""
 print(sb, "\n")
 
 # Tab (\t)
+print("Item\tPrice(PKR)")
+print("Mangoes\t300")
+print("Apples\t500\n")
+
