@@ -3301,3 +3301,8 @@ print()
 '''
 
 # Single quote (\')
+spm= 'That is Alina\'s laptop.'
+print(spm)
+msg= 'It\'s a great day.'
+print(msg, "\n")
+
