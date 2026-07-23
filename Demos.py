@@ -3286,7 +3286,7 @@ inv= addToInventory(inv, dragonLoot)
 #  Manipulating Strings.
 #-----------------------
 #___String: An immutable sequence of Unicode characters used to handle textual data.
-
+'''
 strng= "That is Alina's cat."
 print(strng)
 
@@ -3325,3 +3325,4 @@ print("This is the first line.\nThis is the line after the newline character.\n"
 #  print("C:\Users\Name")        # This will through a SyntaxError error.
 # Python sees \U as a special Unicode code and throws a SyntaxError!
 print("C:\\Users\\Name")   #---->  This won't through any error.
+'''
