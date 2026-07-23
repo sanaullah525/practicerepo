@@ -3318,3 +3318,5 @@ print("Mangoes\t300")
 print("Apples\t500\n")
 
 # New line character (\n)
+print("Items\tPrice(PKR)\nMangoes\t300\nApples\t500\n")
+print("This is the first line.\nThis is the line after the newline character.\n")
