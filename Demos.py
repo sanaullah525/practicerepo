@@ -3317,3 +3317,4 @@ print("Item\tPrice(PKR)")
 print("Mangoes\t300")
 print("Apples\t500\n")
 
+# New line character (\n)
