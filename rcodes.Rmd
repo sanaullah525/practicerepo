@@ -86,4 +86,5 @@ study_data<- data.frame(
     Hours_Studied= c(12,18,15,8,10),
     Passed= c(TRUE, TRUE, TRUE, TRUE, FALSE)
     )
+study_data
 ```
