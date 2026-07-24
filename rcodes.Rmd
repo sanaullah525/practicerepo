@@ -93,4 +93,7 @@ print(study_data)
 ```{r}
 # Accessing a column using the $ operator.
 
+print(study_data$Hours_Studied)
+
+
 ```
