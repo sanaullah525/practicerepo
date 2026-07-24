@@ -82,7 +82,8 @@ cat("Highest Score: ",max_scores)
 # Data Frames (Tables of Data)
 
 study_data<- data.frame(
-    subject= c('Maths', 'Stats', 'Python', 'R', 'SQL')
-    
+    subject= c('Maths', 'Stats', 'Python', 'R', 'SQL'),
+    Hours_Studied= c(12,18,15,8,10),
+    Passed= c(TRUE, TRUE, TRUE, TRUE, FALSE)
     )
 ```
