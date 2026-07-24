@@ -87,4 +87,6 @@ study_data<- data.frame(
     Passed= c(TRUE, TRUE, TRUE, TRUE, FALSE)
     )
 study_data
+print(study_data)
+
 ```
