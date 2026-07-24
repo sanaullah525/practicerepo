@@ -81,5 +81,8 @@ cat("Highest Score: ",max_scores)
 ```{r}
 # Data Frames (Tables of Data)
 
-
+study_data<- data.frame(
+    subject= c('Maths', 'Stats', 'Python', 'R', 'SQL')
+    
+    )
 ```
