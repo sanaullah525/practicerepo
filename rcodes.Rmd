@@ -99,4 +99,5 @@ print(study_data$Hours_Studied)
 
 hard_subjects<- subset(study_data, Hours_Studied > 10)
 
+
 ```
