@@ -65,3 +65,9 @@ is_learning<- TRUE
 print(myname)
 cat("Hello, my name is ",myname, "and I am ",age, "years old.")
 ```
+
+```{r}
+# Using c() for combine.
+scores<- (88,92,79,95,84)
+
+```
