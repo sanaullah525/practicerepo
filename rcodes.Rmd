@@ -52,3 +52,13 @@ barplot(data_project$Score,
 
 ```
 
+
+```{r}
+print("This is coding in R programming language.")
+```
+
+```{r}
+myname<- "Alex"
+age<- 25
+
+```
