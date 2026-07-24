@@ -60,5 +60,7 @@ print("This is coding in R programming language.")
 ```{r}
 myname<- "Alex"
 age<- 25
+is_learning<- TRUE
+
 
 ```
