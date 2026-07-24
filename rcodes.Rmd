@@ -88,5 +88,10 @@ study_data<- data.frame(
     )
 study_data
 print(study_data)
+```
+
+```{r}
+# Filtering data using.
+
 
 ```
