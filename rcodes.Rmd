@@ -63,5 +63,5 @@ age<- 25
 is_learning<- TRUE
 
 print(myname)
-
+cat("Hello, my name is ",myname, "and I am ",age, "years old.")
 ```
