@@ -1,0 +1,54 @@
+
+```{r}
+# Set global plotting colors for Dark Theme
+par(bg = "transparent",   # Keeps the background clean
+    fg = "white",         # Changes axis lines and boxes to white
+    col.axis = "white",   # Changes axis numbers to white
+    col.lab = "white",    # Changes axis titles to white
+    col.main = "white",   # Changes main titles to white
+    col.sub = "white")    # Changes subtitles to white
+```
+
+
+``` {r}
+# 1. Create a sample dataset (Simulating monthly data analysis metrics)
+months<- c("Jan", "Feb", "Mar", "Apr", "May", "Jun")
+conversions<- c(120, 155, 142, 198, 210, 185)
+traffic_source<- c("Organic", "Paid", "Organic", "Organic", "Paid", "Direct")
+
+# Combine them into a Data Frame (R's version of a table)
+data_project<- data.frame(Month = months, Score = conversions, Source = traffic_source)
+
+# 2. View the data
+print("--- Our Dataset ---")
+print(data_project)
+
+
+
+# 3. Calculate basic summary statistics
+print("--- Data Summary ---")
+print(summary(data_project$Score)) # Shows Min, Max, Median, and Mean
+
+
+# Calculate the average (mean) score explicitly
+avg_score<- mean(data_project$Score)
+print(paste("The average score is:", round(avg_score, 2)))
+
+# 4. Filter the data (Show rows where Score is greater than 150)
+print("--- High Performing Months (>150) ---")
+high_perf<- subset(data_project, Score > 150)
+print(high_perf)
+
+# 5. Create a simple text-based plot right in the terminal panel
+print("--- Visualizing Scores ---")
+barplot(data_project$Score, 
+        names.arg = data_project$Month, 
+        col = "skyblue", 
+        main = "Monthly Performance",
+        col.main = "white",   # Makes the main title white
+        col.axis = "white",   # Makes the Y-axis numbers white
+        col.lab = "white",    # Makes the axis labels white
+        fg = "white")         # Makes the actual axis lines white
+
+```
+
