@@ -70,4 +70,8 @@ cat("Hello, my name is ",myname, "and I am ",age, "years old.")
 # Using c() for combine.
 scores<- (88,92,79,95,84)
 
+mean_score<- mean(scores)
+max_scores<- max(scores)
+num_scores<- length(scores)
+
 ```
