@@ -62,5 +62,6 @@ myname<- "Alex"
 age<- 25
 is_learning<- TRUE
 
+print(myname)
 
 ```
